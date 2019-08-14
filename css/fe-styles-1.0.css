@@ -1,0 +1,649 @@
+
+/* CSS Document */
+/*All devices*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	background-color: #FAF7F7;
+}
+.heCover {
+	position: relative
+}
+.heItems {
+	/*position: absolute;*/
+	height: 482px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(25, 23, 23, 0.2);
+	color: white
+}
+.heItems-blog-gallery {
+	/*position: absolute;*/
+	height: 300px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(25, 23, 23, 0.2);
+	color: white
+}
+.heItems-donacion {
+	/*position: absolute;*/
+	height: 368px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(25, 23, 23, 0.2);
+	color: white
+}
+
+.heItems-contacto {
+	/*position: absolute;*/
+	height: 368px;
+	color: white
+}
+.heItems-blog-post {
+	/*position: absolute;*/
+	height: 368px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(25, 23, 23, 0.2);
+	color: white
+}
+header a {
+	color: white;
+	padding: 30px;
+}
+.logo {
+	width: 100px;
+}
+.logo-contacto {
+	width: 180px;
+}
+.heBackImage {
+	background-image: linear-gradient(to right, #242D33 1%, #ffffff 100%);
+	background-position: center;
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+}
+.heImgPlay {
+	display: flex;
+}
+.backImgPlay:hover {
+	margin:-2px;
+  height: 75px;
+  width: 75px;
+  transition: .4s ease;
+}
+
+
+h1 {
+	font-family: enchanted, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
+}
+footer {
+	background-color: #737272;
+}
+footer a {
+	color: white;
+}	
+footer h3 {
+	color: white;
+	text-align: center; 
+}
+footer p {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+.cardMission {
+	background-color: #9C6C6C !important;
+	color: white;
+	border-radius: 0;
+}
+nav {
+	font-size: 18px;
+}
+.fe-secNavLink {
+	padding-top: 7px;
+	color: white;
+	border: 0;
+	background-color: transparent;
+	padding-right: 17px;
+	cursor: pointer;
+}
+.fe-secNavLink1 {
+	padding-top: 7px;
+	color: white;
+	border: 0;
+	background-color: transparent;
+	padding-right: 17px;
+	cursor: pointer;
+}
+.fe-secNavLink:hover {
+	background-image: url("../assets/images/white_dot.png");
+	background-repeat: no-repeat;
+	background-position: 100% 68%;
+	background-size: 10px;
+}
+.togFontSize {
+	font-size: 30px;
+}
+.navBtnDonation{
+		color:#8A0B02 !important;
+}
+
+.fe-button-regist {
+  border: solid 1px #ffffff;
+  background-color: #a67272;
+}
+.fe-button-regist:hover{
+  background-color: #242D33;
+	border: solid 1px #ffffff;
+}
+.fe-button-regist:active{
+  background-color: #242D33;
+	border: solid 1px #ffffff;
+}
+
+.btn-primary:active {
+  color: #fff;
+ background-color: #242D33 !important;
+	border: solid 1px #ffffff !important ;
+}
+
+
+.backImage-index {
+		background-image: url("../assets/images/fondo_inicio.jpg");
+	background-size: cover;
+	}
+
+
+
+/* (xs) Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.heBackImage {
+		background-image: /*linear-gradient(to right, #ffffff 70%, #242D33 100%),*/ url("../assets/images/horse_index_xs.jpg");
+	}
+	.heBackImage-los-epeison {
+		background-image: url("../assets/images/horse_los_epeison_xs.jpg");
+		background-size: cover;
+	}
+	.heBackImage-origen {
+		background-image: url("../assets/images/horse_origen_xs.jpg");
+		background-size: cover;
+	}
+	.heBackImage-proteccion {
+		background-image: url("../assets/images/horse_proteccion_xs.jpg");
+		background-size: cover;
+	}
+	.heBackImage-adaptacion {
+		background-image: url("../assets/images/horse_adaptacion_xs.jpg");
+		background-size: cover;
+	}
+	.heBackImage-sustentabilidad {
+		background-image: url("../assets/images/horse_sustentabilidad_xs.jpg");
+		background-size: cover;
+	}
+	.heBackImage-blog{
+		background-image: url("../assets/images/horse_blog_xl.jpg");
+		background-size: cover;
+	}
+		.heBackImage-donacion{
+		background-image: url("../assets/images/donacion_xs.jpg");
+		background-size: cover;
+	}
+	.heImgPlay {	
+		justify-content: center;
+		align-items: center;
+	}
+	.title-text-rel {
+ 
+     font-size: 55px;
+ 
+	}
+	
+}
+/* (sm) Small devices (landscape phones, less than 768px)*/
+@media (min-width: 575.99px)and (max-width: 767.98px) {
+	.heBackImage {
+		background-image: /*linear-gradient(to right, #ffffff 1%, #242D33 100%),*/ url("../assets/images/horse_index_sm.jpg");
+	}
+	.heBackImage-los-epeison {
+		background-image: url("../assets/images/horse_los_epeison_sm.jpg");
+		background-size: cover;
+	}
+	.heBackImage-origen {
+		background-image: url("../assets/images/horse_origen_sm.jpg");
+		background-size: cover;
+	}
+	.heBackImage-proteccion {
+		background-image: url("../assets/images/horse_proteccion_sm.jpg");
+		background-size: cover;
+	}
+	.heBackImage-adaptacion {
+		background-image: url("../assets/images/horse_adaptacion_sm.jpg");
+		background-size: cover;
+	}
+	.heBackImage-sustentabilidad {
+		background-image: url("../assets/images/horse_sustentabilidad_sm.jpg");
+		background-size: cover;
+	}
+	.heBackImage-blog{
+		background-image: url("../assets/images/horse_blog_xl.jpg");
+		background-size: cover;
+	}
+	.heImgPlay {
+		justify-content: center;
+		align-items: center;
+	}
+		.heBackImage-donacion{
+		background-image: url("../assets/images/donacion_sm.jpg");
+		background-size: cover;
+	}
+	.title-text-rel {
+     font-size: 70px;
+	}
+}
+/* (md) Medium devices (tablets, less than 992px)*/
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+	.heBackImage {
+		background-image: /*linear-gradient(to right, #ffffff 1%, #242D33 100%),*/ url("../assets/images/horse_index_md.jpg");
+	}
+	.heBackImage-los-epeison {
+		background-image: url("../assets/images/horse_los_epeison_md.jpg");
+		background-size: cover;
+	}
+	.heBackImage-origen {
+		background-image: url("../assets/images/horse_origen_md.jpg");
+		background-size: cover;
+	}
+	.heBackImage-proteccion {
+		background-image: url("../assets/images/horse_proteccion_md.jpg");
+		background-size: cover;
+	}
+	.heBackImage-adaptacion {
+		background-image: url("../assets/images/horse_adaptacion_md.jpg");
+		background-size: cover;
+	}
+	.heBackImage-sustentabilidad {
+		background-image: url("../assets/images/horse_sustentabilidad_md.jpg");
+		background-size: cover;
+	}
+	.heBackImage-blog{
+		background-image: url("../assets/images/horse_blog_xl.jpg");
+		background-size: cover;
+	}
+		.heBackImage-donacion{
+		background-image: url("../assets/images/donacion_md.jpg");
+		background-size: cover;
+	}
+	
+	.heImgPlay {
+		justify-content: flex-end;
+	}
+	.box-gallery{
+	height: 170px;
+    }
+	.title-text-rel {
+     font-size: 70px;
+	}
+}
+/* (lg) Large devices (desktops, less than 1200px)*/
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
+	.heImgPlay {
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+	.heBackImage {
+		background-image: /*linear-gradient(to right, #ffffff 1%, #242D33 100%),*/ url("../assets/images/horse_index_xl.jpg");
+	}
+	.heBackImage-los-epeison {
+		background-image: url("../assets/images/horse_los_epeison_lg.jpg");
+		background-size: cover;
+	}
+	.heBackImage-origen {
+		background-image: url("../assets/images/horse_origen_lg.jpg");
+		background-size: cover;
+	}
+	.heBackImage-proteccion {
+		background-image: url("../assets/images/horse_proteccion_lg.jpg");
+		background-size: cover;
+	}
+	.heBackImage-adaptacion {
+		background-image: url("../assets/images/horse_adaptacion_lg.jpg");
+		background-size: cover;
+	}
+	.heBackImage-sustentabilidad {
+		background-image: url("../assets/images/horse_sustentabilidad_lg.jpg");
+		background-size: cover;
+	}
+	.heBackImage-blog{
+		background-image: url("../assets/images/horse_blog_xl.jpg");
+		background-size: cover;
+	}
+		.heBackImage-donacion{
+		background-image: url("../assets/images/donacion.jpg");
+		background-size: cover;
+	}
+	
+	.navBtnDonation{
+		background-color: #242D33;
+		color:white !important;
+		margin-left:20px;
+	    width: 200px;		
+	}
+	.box-gallery{
+	height: 162px;
+    }
+	.title-text-rel {
+     font-size: 70px;
+	}	
+}
+/* (xl) Extra large devices (large desktops)
+No media query since the extra-large breakpoint has no upper bound on its width
+*/
+@media (min-width: 1199.99px) {
+	.heBackImage {
+		background-image: /*linear-gradient(to right, #ffffff 1%, #242D33 100%),*/ url("../assets/images/horse_index_xl.jpg");
+		background-size: cover;
+	}
+	.heBackImage-los-epeison {
+		background-image: url("../assets/images/horse_los_epeison_xl.jpg");
+		background-size: cover;
+	}
+	.heBackImage-origen {
+		background-image: url("../assets/images/horse_origen_xl.jpg");
+		background-size: cover;
+	}
+	.heBackImage-sustentabilidad {
+		background-image: url("../assets/images/horse_sustentabilidad_xl.jpg");
+		background-size: cover;
+	}
+	
+	.heBackImage-proteccion {
+		background-image: url("../assets/images/horse_proteccion_xl.jpg");
+		background-size: cover;
+	}
+	.heBackImage-adaptacion {
+		background-image: url("../assets/images/horse_adaptacion_xl.jpg");
+		background-size: cover;
+	}
+	.heBackImage-blog{
+		background-image: url("../assets/images/horse_blog_xl.jpg");
+		background-size: cover;
+	}
+	.heBackImage-donacion{
+		background-image: url("../assets/images/donacion.jpg");
+		background-size: cover;
+	}
+	.heBackImage-blog-post {
+		background-image: url("../assets/images/blog1_post.jpg");
+		background-size: cover;
+	}
+	
+	
+	.heImgPlay {
+		justify-content: flex-end;
+	}
+	.navBtnDonation{
+		background-color: #242D33;
+		color:white !important;
+		margin-left:22px;
+	    width: 200px;	
+	}
+	.box-gallery{
+	height: 210px;
+}
+	.title-text-rel {
+     font-size: 70px;
+	}
+
+}
+
+
+.text-rel {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #242d33;
+}
+.text-art {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #242d33;
+}
+
+.title-text-rel {
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #221e1f;
+}
+
+.desc-text-rel {
+
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.32;
+  text-align: center;
+  color: #231f20;
+}
+
+.text-rel-link {
+	font-size: 18px;
+	color:#9C6C6C;
+	text-align: center;
+}
+.text-rel-link:hover {
+	color:#737272;
+	text-decoration: none;
+	
+}
+
+.card-img {
+  border-radius: 0px;
+  object-fit: contain;
+}
+.blog-title{
+  font-family: 'Roboto Slab', serif;;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.32;
+  color: #242d33;
+}
+.blog-title:hover{
+	text-decoration: underline;
+}
+
+.blog-small {
+  font-size: 15px;
+  line-height: 1.33;
+  color: #707070;
+}
+
+.blog-text {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #242d33;
+}
+
+.blog-btn {
+  width: 138px;
+  height: 37px;
+  background-color:#A67272; 
+  color:white;
+  border-radius:0px;
+  
+}
+.blog-btn:hover {
+  background-color: #242d33;
+color: white;
+  
+}
+
+
+.page-link {
+  color: #9C6C6C;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #FAF7F7;
+  border-color: #FAF7F7;
+  
+}
+
+.pagination{
+	border-radius: 0px;
+}
+
+.page-item{
+	border-radius: 0px;
+}
+
+.contact-btn {
+  width: 100%;
+  height: 37px;
+  background-color: #9C6C6C;
+  color:white;
+  border-radius:0px;
+  
+}
+.card-mision{
+  width: 364px;
+  height: 572.3px;
+  opacity: 0.91;
+  background-color: #a67272;
+	padding:42px;
+}
+.card-mision-title{
+text-align: center;	
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+	padding-bottom: 30px;
+}
+.card-mision-text{
+  width: 280px;
+  
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fe-modal {
+	background-color: #000000;
+	border-radius:0px;
+}
+
+.fe-radius {
+	border-radius: 0px;
+}
+
+
+
+.nav-link:hover {
+	color:#221e1f;
+}
+
+nav a{
+	color:#221e1f !important;
+}
+
+nav a:hover{
+	color:#707070 !important;
+}
+
+.pointer{
+	cursor:pointer;
+}
+.h1-blog {
+	font-family: 'Roboto Slab', serif;
+}
+.h1-contacto {
+	font-family: 'Roboto Slab', serif;
+	margin-top:140px
+}
+.modal-content{
+	border-radius: 0px;
+	border:0px;
+
+}
+.modal-dialog{
+	border-radius: 0px;
+	
+}
+.modal-body{
+	padding: 1px;
+}
+.box-gallery-1 {
+
+	color:#242D33;
+}
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+
+
+.col-contact-datos {
+  width: 365px;
+	min-height: 515px;
+  background-color: #E7D6D5;
+	 
+}
+.col-contact-datos-xs {
+  width: 100%;
+	min-height: 415px;
+  background-color: #E7D6D5;
+	 
+}
+
+.linea-contacto {
+  width: 265px;
+  height: 0;
+  border: solid 2px #242d33;
+}
+.linea-contacto-xs {
+
+  height: 0;
+  border: solid 2px #242d33;
+}
+
+

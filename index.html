@@ -13,20 +13,21 @@
 <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 <link href="css/fe-styles-1.0.css" rel="stylesheet">
 </head>
-<body style="padding-top: 56px">
+<body>
+<!--style="padding-top: 56px"--> 
 <!-- body code goes here -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container"> <a class="navbar-brand" href="#"><img class="logo" src="assets/images/logo.png" alt=""/></a>
+  <div class="container"> <a class="navbar-brand" href="index.html"><img class="logo" src="assets/images/logo.png" alt=""/></a>
     <button class="navbar-toggler border-0 togFontSize" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
 			aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span
 				class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse text-right" id="navbarSupportedContent1">
       <ul class="navbar-nav pt-lg-1 pb-lg-1 ml-auto">
-        <li class="nav-item active"> <a class="nav-link fe-Menu mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="#">Inicio <span class="sr-only">(current)</span></a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink-active mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="#">Los Epeison</a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="#">Galería</a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="#">Blog</a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-4 pr-lg-4 navBtnDonation" href="#">Haz una donación</a> </li>
+        <li class="nav-item active"> <a class="nav-link fe-Menu mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="index.html">Inicio <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link fe-mainNavLink-active mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="los_epeison.html">Los Epeison</a> </li>
+        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="galeria.html">Galería</a> </li>
+        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="blog.html">Blog</a> </li>
+        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-4 pr-lg-4 navBtnDonation" href="donacion.html">Haz una donación</a> </li>
       </ul>
     </div>
   </div>
@@ -41,112 +42,117 @@
             Epeison</h1>
         </div>
         <div class="col-sm-12">
-          <ul class="nav flex-column text-center text-md-right m-n1">
-            <li class="nav-item">
-              <input type="button" class="fe-secNavLink" value="Quíenes son"/>
-            </li>
-            <li class="nav-item">
-              <input type="button" class="fe-secNavLink" value="Historia"/>
-            </li>
-            <li class="nav-item">
-              <input type="button" class="fe-secNavLink" value="Protección"/>
-            </li>
-            <li class="nav-item">
-              <input type="button" class="fe-secNavLink" value="Adaptación"/>
-            </li>
-            <li class="nav-item">
-              <input type="button" class="fe-secNavLink" value="Sustentabilidad"/>
-            </li>
-            <li class="nav-item">
-              <input type="button" class="fe-secNavLink" value="Documental"/>
-            </li>
-          </ul>
+          <form action="">
+            <ul class="nav flex-column text-center text-md-right m-n1">
+              <li class="nav-item">
+                <input type="button" class="fe-secNavLink" value="Quíenes son" onclick="location.href='los_epeison.html'"/>
+              </li>
+              <li class="nav-item">
+                <input type="button" class="fe-secNavLink" value="Historia" onclick="location.href='origen_e_historia.html'"/>
+              </li>
+              <li class="nav-item">
+                <input type="button" class="fe-secNavLink" value="Protección" onclick="location.href='proteccion.html'"/>
+              </li>
+              <li class="nav-item">
+                <input type="button" class="fe-secNavLink" value="Adaptación" onclick="location.href='adaptacion.html'"/>
+              </li>
+              <li class="nav-item">
+                <input type="button" class="fe-secNavLink" value="Sustentabilidad" onclick="location.href='manejo_sustentable.html'"/>
+              </li>
+              <li class="nav-item">
+                <input type="button" class="fe-secNavLink1" value="Documental"/>
+              </li>
+            </ul>
+          </form>
         </div>
-        <div class="col-sm-12"> <a class="heImgPlay mt-n3" href="#"><img src="assets/images/btn-documental.png" width="70" height="70" alt="ver documental" /></a> </div>
+        <div class="col-sm-12 "> <a class="heImgPlay mt-n3" ><img class="backImgPlay  pointer" src="assets/images/btn-documental.png" width="70" height="70" alt="ver documental" data-toggle="modal" data-target=".bd-example-modal-xl" /></a> </div>
       </div>
     </div>
   </div>
-  <!--</div>--> >
-</header>
-<main>
-  <section class="form">
-    <h5 class="card-title">Tú también puedes ser parte.</h5>
-    <h6 class="card-subtitle text-muted">Te contaremos acerca de formas de ayudar, nuevos eventos, publicaciones y
-      noticias</h6>
-    <div class="form-group col-12 col-md-4">
-      <input type="text" class="form-control mc-radius" placeholder="Nombre">
-    </div>
-    <div class="form-group col-12 col-md-4">
-      <input type="text" class="form-control mc-radius" placeholder="correo electrónico ">
-    </div>
-    <div class="form-group col-12 mb-5 col-md-4">
-      <button type="submit" class="btn btn-primary mc-radius btn-block mc-button-regist">Quiero ser parte</button>
-    </div>
-  </section>
-  <section class="mission" style="background-color: #9C6C6C !important;">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="card cardMission p-5 border-0">
-            <div class="card-body">
-              <h5 class="card-title">NUESTRA MISIÓN</h5>
-              <p class="card-text">Lograr la permanencia de los Epesion en la Cordillera de Darwin, trabajando en
-                la protección, conservación y manejo sustentable de esta especie, dando a conocer su
-                existencia y particularidades y propiciando alianzas con diversas instituciones
-                profesionales que permitan esclarecer los muchos misterios que les rodean.</p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel-item active">
-            <div class="card cardMission p-5 border-0">
-              <div class="card-body">
-                <h5 class="card-title">NUESTRA VISIÓN</h5>
-                <p class="card-text">Los caballos salvajes Epeison son equinos de inmenso valor para el mundo, no
-                  solo por suscaracterísticas única sino también por ser una de las últimas poblaciones de caballos
-                  salvaje en el planeta. A pesar de vivir durante décadas en libertad, creemos que los
-                  seres humanos tenemos un deber de protección y conservación de los Epeison, ya que sin
-                  esa labor, estos maravillosos equinos podrían desaparecer de la faz de la tierra.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <div class="carousel-item">
-            <div class="card cardMission p-5">
-              <div class="card-body">
-                <h5 class="card-title">NUESTROS VALORES</h5>
-                <p class="card-text">
-                <p>Respeto hacia los caballos y sus condiciones naturales de existencia</p>
-                <p>Manejo sustentable de los equinos salvajes</p>
-                <p>Avance constante en la investigación científica sobre esta especie</p>
-                <p>Protección ante la violencia injustificada</p>
-                </p>
-              </div>
-            </div>
-          </div>
+  <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content fe-modal">
+        <div class="embed-responsive embed-responsive-16by9" id="yt-player">
+          <iframe class="embed-responsive-item" src="assets/videos/documental_full.mp4" allowfullscreen></iframe>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
-  </section>
+    </div>
+  </div>
+  
+  <!--</div>--> 
+</header>
+<main>
+<section>
+<div class="container pt-5 pb-5">
+<div class="row pt-5 mr-1 ml-1 mr-sm-0 ml-sm-0 ">
+  <h3 class="text-center">Estamos escribiendo nuevas lineas para la protección y preservación de estos caballos salvajes del sur de Chile. Tú también puedes ser parte.</h3>
+  <p class="mx-auto text-center">Te contaremos acerca de formas de ayudar, nuevos eventos, publicaciones y noticias</p>
+</div>
+<div class="row">
+  <form class="form-inline mx-auto pb-5" action="">
+    <div class="form-group col-12 col-sm-12 col-md-4 col-lg-4">
+      <input type="text" class="form-control fe-radius" placeholder="Nombre">
+    </div>
+    <div class="form-group col-12 col-sm-12 col-md-4 col-lg-4">
+      <input type="text" class="form-control fe-radius" placeholder="Correo electrónico ">
+    </div>
+    <div class="form-group col-12 col-sm-12 col-md-4 col-lg-4">
+      <button type="submit" class="btn btn-primary fe-radius btn-block fe-button-regist ">Quiero saber más</button>
+    </div>
+  </form>
+</div>
+</section>
+<div class="backImage-index">
+  <div class="container">
+    <div class="row pt-5 pb-5">
+      <div class="col-4">
+        <div class="card-mision">
+          <h2 class="card-mision-title">NUESTRA MISION</h2>
+          <p class="card-mision-text">Lograr la permanencia de los Epesion en la Cordillera de Darwin, trabajando en la protección, conservación y manejo sustentable de esta especie, dando a conocer su existencia y particularidades y propiciando alianzas con diversas instituciones profesionales que permitan esclarecer los muchos misterios que les rodean. </p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card-mision">
+          <h2 class="card-mision-title">NUESTRA VISION</h2>
+          <p class="card-mision-text">Los caballos salvajes Epeison son equinos de inmenso valor para el mundo, no solo por sus características única sino también por ser una de las últimas poblaciones de caballos salvaje en el planeta. A pesar de  vivir durante décadas en libertad, creemos que los seres humanos tenemos un deber de protección y conservación de los Epeison, ya que sin esa labor, estos maravillosos equinos podrían desaparecer de la faz de la tierra.</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card-mision">
+          <h2 class="card-mision-title">NUESTROS VALORES</h2>
+          <p class="card-mision-text">Respeto hacia los caballos y sus condiciones naturales de existencia </p>
+          <p class="card-mision-text">Manejo sustentable de los equinos salvajes </p>
+          <p class="card-mision-text">Avance constante en la investigación científica sobre esta especie </p>
+          <p class="card-mision-text">Protección ante la violencia injustificada </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </main>
 <footer>
-  <ul class="nav flex-column text-center">
-    <li class="nav-item"> <a class="nav-link" href="#">Haz una donacion</a> </li>
-    <li class="nav-item"> <a class="nav-link" href="#">Galería</a> </li>
-    <li class="nav-item"> <a class="nav-link" href="#">Contacto</a> </li>
-  </ul>
+  <div class="container pt-3">
+    <div class="row pb-5">
+      <ul class="nav flex-column flex-sm-row mx-auto text-center mt-5">
+        <li class="nav-item"> <a class="nav-link pt-3" href="donacion.html">Haz una donación</a> </li>
+        <li class="nav-item"> <a class="nav-link pt-3" href="galeria.html">Galería</a> </li>
+        <li class="nav-item"> <a class="nav-link pt-3" href="contacto.html">Contacto</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/caballoepeison/" target="_blank"><img src="images/facebook_icon.png" width="48" height="48" alt=""/></a> </li>
+      </ul>
+    </div>
+  </div>
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-3.3.1.min.js"></script> 
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/popper.min.js"></script> 
-<script src="js/bootstrap-4.3.1.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script> 
+<script>
+	$('.modal').on('hide.bs.modal', function() {
+     var memory = $(this).html();
+     $(this).html(memory);
+});
+</script>
 </body>
 </html>
