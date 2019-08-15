@@ -71,9 +71,8 @@
   </div>
   <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered">
-      <div class="modal-content fe-modal">
-        <div class="embed-responsive embed-responsive-16by9" id="yt-player">
-          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/232725686" allowfullscreen></iframe>
+      <div class="embed-responsive embed-responsive-16by9" id="yt-player">
+          <iframe src="https://player.vimeo.com/video/354068277" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -94,7 +93,8 @@
       <div class="row">
 		        <div class="col-12 col-lg-6 mt-2 mb-5">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="assets/videos/matanza.mp4" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/354074282" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
           </div>
         </div>
         <div class="col-12 col-lg-6 text-rel pl-lg-5">
@@ -157,9 +157,11 @@
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/popper.min.js"></script> 
 <script src="js/bootstrap-4.3.1.js"></script>
-<script>$("#btn-continue").click(function() {
-  $(this).fadeOut(1);
-  $("textarea").fadeIn(1);
-});</script>
+<script>
+  $('.modal').on('hide.bs.modal', function() {
+     var memory = $(this).html();
+     $(this).html(memory);
+});
+</script>
 </body>
 </html>

@@ -73,7 +73,7 @@
     <div class="modal-dialog modal-xl modal-dialog-centered">
       <div class="modal-content fe-modal">
         <div class="embed-responsive embed-responsive-16by9" id="yt-player">
-          <iframe class="embed-responsive-item" src="assets/videos/documental_full.mp4" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/354068277" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -94,7 +94,8 @@
       <div class="row">
         <div class="col-12 col-lg-6 mt-2 mb-5">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="assets/videos/origen.mp4" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/354074412" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
           </div>
         </div>
         <div class="col-12 col-lg-6 text-rel pl-lg-5">
@@ -134,16 +135,16 @@
           <input type="text" class="form-control fe-radius" placeholder="Correo electrónico ">
         </div>
         <div class="form-group col-12 col-sm-4 col-md-4 col-lg-4">
-          <button type="submit" class="btn btn-primary fe-radius btn-block fe-button-regist">Quiero ser parte</button>
+          <button type="submit" class="btn btn-primary fe-radius btn-block fe-button-regist">Quiero saber más</button>
         </div>
       </form>
     </div>
     <div class="row pb-5">
       <ul class="nav flex-column flex-sm-row mx-auto text-center mt-5">
-        <li class="nav-item"> <a class="nav-link pt-3" href="#">Haz una donación</a> </li>
-        <li class="nav-item"> <a class="nav-link pt-3" href="#">Galería</a> </li>
-        <li class="nav-item"> <a class="nav-link pt-3" href="#">Contacto</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#"><img src="images/facebook_icon.png" width="48" height="48" alt=""/></a> </li>
+        <li class="nav-item"> <a class="nav-link pt-3" href="donacion.html">Haz una donación</a> </li>
+        <li class="nav-item"> <a class="nav-link pt-3" href="galeria.html">Galería</a> </li>
+        <li class="nav-item"> <a class="nav-link pt-3" href="contacto.html">Contacto</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/caballoepeison/" target="_blank"><img src="images/facebook_icon.png" width="48" height="48" alt=""/></a> </li>
       </ul>
     </div>
   </div>
@@ -154,9 +155,11 @@
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/popper.min.js"></script> 
 <script src="js/bootstrap-4.3.1.js"></script> 
-<script>$("#btn-continue").click(function() {
-  $(this).fadeOut(1);
-  $("textarea").fadeIn(1);
-});</script>
+<script>
+  $('.modal').on('hide.bs.modal', function() {
+     var memory = $(this).html();
+     $(this).html(memory);
+});
+</script>
 </body>
 </html>

@@ -21,7 +21,7 @@ body {
 }
 .heItems-blog-gallery {
 	/*position: absolute;*/
-	height: 300px;
+	height: 221px;
 	top: 0;
 	bottom: 0;
 	right: 0;
@@ -521,18 +521,23 @@ color: white;
   height: 572.3px;
   opacity: 0.91;
   background-color: #a67272;
-	padding:42px;
+  padding:42px;
+}
+.card-mision-movil{
+  width: 364px;
+  height: 572.3px;
+  opacity: 0.91;
+  background-color: #a67272;
 }
 .card-mision-title{
 text-align: center;	
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
-	padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 .card-mision-text{
   width: 280px;
-  
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
