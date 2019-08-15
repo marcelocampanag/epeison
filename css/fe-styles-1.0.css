@@ -530,7 +530,7 @@ color: white;
   background-color: #a67272;
 }
 .card-mision-title{
-text-align: center;	
+  text-align: center;	
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
@@ -552,7 +552,7 @@ text-align: center;
 }
 .card-mision-text-movil{
   width: 90%;
-  font-size: 20	px;
+  font-size: 20px;
   line-height: 1.2;
   text-align: center;
   color: #ffffff;
