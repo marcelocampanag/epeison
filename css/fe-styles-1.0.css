@@ -536,9 +536,23 @@ text-align: center;
   color: #ffffff;
   padding-bottom: 30px;
 }
+.card-mision-title-movil{
+text-align: center;	
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
 .card-mision-text{
   width: 280px;
   font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+}
+.card-mision-text-movil{
+  width: 280px;
+  font-size: 15px;
   line-height: 1.2;
   text-align: center;
   color: #ffffff;
