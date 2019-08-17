@@ -169,6 +169,25 @@ nav {
 
 /* (xs) Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+	
+	.h1-blog {
+	font-size: 40px;
+	}
+	footer h3{
+		font-size: 25px;
+		padding-bottom: 10px;
+		margin-top: -20px;
+	}
+	.blog-autor
+	{
+	font-size: 20px;
+	}
+	.title-text-rel {
+     font-size: 49px;
+	}
+	.desc-text-rel {
+        font-size: 20px;
+    }
 	.heBackImage {
 		background-image: /*linear-gradient(to right, #ffffff 70%, #242D33 100%),*/ url("../assets/images/horse_index_xs.jpg");
 	}
@@ -204,15 +223,17 @@ nav {
 		justify-content: center;
 		align-items: center;
 	}
-	.title-text-rel {
- 
-     font-size: 55px;
- 
-	}
+	
 	
 }
 /* (sm) Small devices (landscape phones, less than 768px)*/
 @media (min-width: 575.99px)and (max-width: 767.98px) {
+	.title-text-rel {
+     font-size: 55px;
+	}
+	.desc-text-rel {
+        font-size: 25px;
+    }
 	.heBackImage {
 		background-image: /*linear-gradient(to right, #ffffff 1%, #242D33 100%),*/ url("../assets/images/horse_index_sm.jpg");
 	}
@@ -254,6 +275,12 @@ nav {
 }
 /* (md) Medium devices (tablets, less than 992px)*/
 @media (min-width: 767.99px) and (max-width: 991.98px) {
+	.title-text-rel {
+     font-size: 55px;
+	}
+    .desc-text-rel {
+        font-size: 25px;
+    }	
 	.heBackImage {
 		background-image: /*linear-gradient(to right, #ffffff 1%, #242D33 100%),*/ url("../assets/images/horse_index_md.jpg");
 	}
@@ -298,6 +325,12 @@ nav {
 }
 /* (lg) Large devices (desktops, less than 1200px)*/
 @media (min-width: 991.99px) and (max-width: 1199.98px) {
+	.title-text-rel {
+     font-size: 55px;
+	}
+	.desc-text-rel {
+        font-size: 25px;
+    }
 	.heImgPlay {
 		justify-content: flex-end;
 		align-items: flex-end;
@@ -351,6 +384,13 @@ nav {
 No media query since the extra-large breakpoint has no upper bound on its width
 */
 @media (min-width: 1199.99px) {
+	.title-text-rel {
+     font-size: 55px;
+ 
+	}
+	.desc-text-rel {
+        font-size: 25px;
+    }
 	.heBackImage {
 		background-image: /*linear-gradient(to right, #ffffff 1%, #242D33 100%),*/ url("../assets/images/horse_index_xl.jpg");
 		background-size: cover;
@@ -406,6 +446,7 @@ No media query since the extra-large breakpoint has no upper bound on its width
      font-size: 70px;
 	}
 
+
 }
 
 
@@ -429,9 +470,7 @@ No media query since the extra-large breakpoint has no upper bound on its width
 }
 
 .desc-text-rel {
-
   font-family: 'Roboto Slab', serif;
-  font-size: 25px;
   font-weight: bold;
   line-height: 1.32;
   text-align: center;
@@ -585,6 +624,10 @@ nav a:hover{
 	cursor:pointer;
 }
 .h1-blog {
+	font-family: 'Roboto Slab', serif;
+}
+.blog-autor
+{
 	font-family: 'Roboto Slab', serif;
 }
 .h1-contacto {

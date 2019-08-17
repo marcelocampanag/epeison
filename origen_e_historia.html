@@ -90,7 +90,7 @@
       </div>
       <div class="row"></div>
     </div>
-    <div class="container mt-5 pt-3 mb-5 pb-5">
+    <div class="container mt-3 mt-sm-5 pt-3 mb-5 pb-5">
       <div class="row">
         <div class="col-12 col-lg-6 mt-2 mb-5">
           <div class="embed-responsive embed-responsive-16by9">
@@ -161,5 +161,9 @@
      $(this).html(memory);
 });
 </script>
+<script>$("#btn-continue").click(function() {
+    $(this).fadeOut(1);
+    $("textarea").fadeIn(1);
+  });</script>
 </body>
 </html>
