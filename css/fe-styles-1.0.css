@@ -1,6 +1,54 @@
 
 /* CSS Document */
 /*All devices*/
+#header-index {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#header-index video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#header-index .container {
+  position: relative;
+  z-index: 2;
+}
+
+#header-index .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  #header-index {
+    background: url('../assets/images/horse_los_epeison_xl.jpg') black no-repeat center center scroll;
+  }
+  #header-index video {
+    display: none;
+  }
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
@@ -434,7 +482,7 @@ No media query since the extra-large breakpoint has no upper bound on its width
 		justify-content: flex-end;
 	}
 	.navBtnDonation{
-		background-color: #242D33;
+		background-color: #8A0B02;
 		color:white !important;
 		margin-left:22px;
 	    width: 200px;	
@@ -707,5 +755,41 @@ padding-right: 1.1rem;
   height: 0;
   border: solid 2px #242d33;
 }
+#video{
+	width: 100%;
+	min-width: 100%;
+	margin-top:-20px;
+}
+.large-text-counter{
 
+	font-size: 54px;
+	color:#8A0B02;
+}
+.small-text-counter{
 
+	font-size: 16px;
+	font-weight: bold;
+	color:#737272;
+}
+.title-text-excerpt{
+
+	font-size: 20px;
+	font-weight: bold;
+	color:#737272;
+}
+.text-excerpt{
+
+	font-size: 18px;
+	color:#737272;
+}
+.back-white{
+	background-color: white;
+	min-height: 327px;
+}
+.height-counters{
+	min-height: 327px;
+	padding-top:35px;
+}
+.nav-menu-index:hover{
+color:#DBD7D7;
+}

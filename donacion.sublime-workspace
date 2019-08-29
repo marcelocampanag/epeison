@@ -3,6 +3,42 @@
 	{
 		"selected_items":
 		[
+			[
+				"coun",
+				"counter"
+			],
+			[
+				"container",
+				"container-fluid"
+			],
+			[
+				"font-",
+				"font-style\tproperty"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"co",
+				"container"
+			]
 		]
 	},
 	"buffers":
@@ -20,6 +56,22 @@
 		"selected_items":
 		[
 			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"Sni",
+				"Emmet: Select Next Item"
+			],
+			[
+				"Snippe",
+				"Snippet: html"
+			],
+			[
 				"",
 				"About"
 			]
@@ -28,9 +80,14 @@
 	},
 	"console":
 	{
-		"height": 178.0,
+		"height": 134.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"emmet",
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control: Install Package"
 		]
 	},
 	"distraction_free":
@@ -44,21 +101,51 @@
 	},
 	"file_history":
 	[
+		"/Users/marcelo/Documents/Work/Desarrollo/Resources/Boostrap/themes/CreateX/dist/js/modernizr.min.js",
+		"/Users/marcelo/Documents/Work/Desarrollo/Resources/Boostrap/themes/CreateX/dist/css/theme.min.css",
+		"/Users/marcelo/Documents/Work/Desarrollo/Resources/Boostrap/themes/CreateX/dist/js/card.min.js",
+		"/Users/marcelo/Documents/Work/Desarrollo/Resources/Boostrap/themes/CreateX/dist/blog-single-video.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Resources/Boostrap/themes/CreateX/dist/components/google-maps.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Resources/Boostrap/themes/CreateX/dist/css/vendor.min.css",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/index.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/css/fe-styles-1.0.css",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/epeison-nav.sublime-snippet",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/epeison-footer.sublime-snippet",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/html5.sublime-snippet",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/html5",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/untitled",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/footerepeison",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/footer epeison",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/js/counter.js",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/los_epeison.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/css/styles.css",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/adaptacion.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/manejo_sustentable.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/blog_post1.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/blog_post2.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/blog_post3.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/origen_e_historia.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/proteccion.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/blog.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/contacto.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/donacion.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/galeria.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/galeria2.html",
+		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/css/bootstrap-4.3.1.css",
 		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
 		"/Users/marcelo/Library/Application Support/Sublime Text 3/Packages/Default/Distraction Free.sublime-settings",
-		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/css/bootstrap-4.3.1.css",
-		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/css/fe-styles-1.0.css",
-		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/index.html",
-		"/Users/marcelo/Documents/Work/Desarrollo/Proyectos/Epeison/Web/blog_post1.html",
 		"/Users/marcelo/Documents/GitHub/cit225/lab6/apply_oracle_lab6.sql"
 	],
 	"find":
 	{
-		"height": 44.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 116.0,
 		"where_history":
 		[
 		]
@@ -72,7 +159,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -96,7 +183,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"layout":
 	{
@@ -133,7 +220,7 @@
 	"project": "donacion.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
