@@ -1,0 +1,167 @@
+/*html labels*/
+h1 {
+  font-family: enchanted, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+h2 {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+body {
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+  color: #242D33
+}
+/*background*/
+.bg-danger {
+  background-color: #BB4B4C !important;
+}
+.bg-black {
+  background: #000000;
+}
+/*Buttons*/
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0 1.75rem;
+  font-size: 1rem;
+  line-height: 44px;
+  border-radius: 0;
+  -webkit-transition: all 0.3s !important;
+  transition: all 0.3s !important;
+  max-height: 45px;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #BB4B4C;
+  border-color: #BB4B4C;
+}
+/*Forms*/
+.form-control {
+  display: block;
+  width: 98%;
+  height: 44px;
+  padding: .5rem .9375rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #404040;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #e4e4e4;
+  border-radius: 0;
+  -webkit-transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out
+}
+/*Images*/
+.logo {
+  width: 110px;
+}
+.backImage-index {
+  background-image: url("../assets/images/fondo_inicio.jpg");
+  background-size: cover;
+}
+.headerBackImage {
+  background-image: url("../assets/images/horse_los_epeison_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+.headerImageOrigen{
+  background-image: url("../assets/images/horse_origen_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+.header-opacity {
+  height: 468px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+.opacity-091 {
+  opacity: 0.91;
+}
+/*Links*/
+.card-link {
+  color: #BC0A12;
+}
+.card-link:hover {
+  color: #9F0810;
+}
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #DBD7D7;
+}
+.nav-link.active {
+  color: #BB4B4C;
+  font-weight: bold;
+}
+.arrow-link {
+  color: #6c757d;
+  font-size: 1.2rem;
+}
+.arrow-link:hover {
+  color: #242D33;
+  text-decoration: none;
+}
+.secondary-link {
+  color: #BB4B4C;
+  font-size: 1.1rem;
+}
+.secondary-link:hover {
+  color: #9F0810;
+  text-decoration: none;
+}
+/*nav*/
+/*media query*/
+@media (max-width: 575.98px) {
+  .rem1d5 {
+    font-size: 1.5rem;
+  }
+}
+/*Text*/
+.lh-1d5 {
+  line-height: 1.5;
+}
+.rem1d25 {
+  font-size: 1.25rem
+}
+
+.headerImageProteccion {
+  background-image: url("../assets/images/horse_proteccion_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+.headerImageAdaptacion {
+  background-image: url("../assets/images/horse_adaptacion_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+.headerImageSustentabilidad {
+  background-image: url("../assets/images/horse_sustentabilidad_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;	
+}

@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+main img
+{
+	height: 100vh;
+	object-fit: cover;
+}
+#cover
+{
+	position: relative;
+}
+#cover .overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left:0;	
+	background-color: rgba(25,23,23,0.5);
+	color:white
+}
+.overlay a{
+	color: white !important;
+}
+@media (max-width: 575.98px) { 
+	h1
+{
+	font-family: enchanted, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
+}
+}
+h2
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	font-weight: bold;
+	
+
+}
+p
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;	
+}
+.mc-nav-link {
+	color: #242D33 !important;
+}
+.mc-nav-link:hover {
+	background-color: #8A0B02 !important;
+	color:white !important;
+}
+.mc-active {
+	 border-radius: 0px !important;
+	 background-color: #8A0B02 !important;
+	 color:white !important;
+}
+.mc-active:hover{
+	background-color: #AF1D12 !important;
+}
+.active-black {
+	 border-radius: 0px !important;
+	 background-color: #242D33 !important;
+	 color:white !important;
+}
+.active-black:hover {
+	 background-color: #8A0B02 !important;
+}
+
+#nav-top img{
+	 width: 120px;
+}
+.col-height-200{
+	 height: 200px;
+	
+}
+footer{
+	background-color: #737272;
+	
+}
+footer 	a{
+	color:white;
+}
+
+#form-regist {
+	background-color: #FAF7F7;
+}
+.overall-height{
+height: 150px;
+ 
+}
+.mc-button-regist{
+	background-color: #A67272;
+	border:0;
+}
+
+
+
+.mc-colbg-cardmission {
+	background-color: #9C6C6C;
+	color: white;
+	border-radius: 0;
+	min-height: 450px;
+}
+.mc-radius{
+	border-radius: 0 !important;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
