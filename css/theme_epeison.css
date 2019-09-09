@@ -87,7 +87,7 @@ body {
   background-repeat: no-repeat;
 }
 .header-opacity {
-  height: 468px;
+  min-height: 468px;
   width: 100%;
   background-color: rgba(0, 0, 0, .5);
 }
