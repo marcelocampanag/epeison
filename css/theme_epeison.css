@@ -91,6 +91,11 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, .5);
 }
+.header-opacity0dot7 {
+  min-height: 468px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .7);
+}
 .opacity-091 {
   opacity: 0.91;
 }
@@ -160,6 +165,14 @@ body {
 
 .headerImageSustentabilidad {
   background-image: url("../assets/images/horse_sustentabilidad_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;	
+}
+
+.headerImageBlog {
+  background-image: url("../assets/images/horse_index_xl.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;

@@ -1,129 +1,170 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fundación Los Epeison</title>
-<!--Styles-->
-
-<link rel="stylesheet" href="https://use.typekit.net/bpv1kso.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
-<link rel="stylesheet" href="css/normalize.css">
+<title>Untitled Document</title>
+<!-- Bootstrap -->
 <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
-<link href="css/fe-styles-1.0.css" rel="stylesheet">
+<!-- Fuentes-->
+<link rel="stylesheet" href="https://use.typekit.net/bpv1kso.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab" rel="stylesheet">
+<!-- CSS personalizados del sitio -->
+<link href="css/theme_epeison.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<!--style="padding-top: 56px"--> 
-<!-- body code goes here -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container"> <a class="navbar-brand" href="index.html"><img class="logo" src="assets/images/logo.png" alt=""/></a>
-    <button class="navbar-toggler border-0 togFontSize" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-			aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span
-				class="navbar-toggler-icon"></span> </button>
-    <div class="collapse navbar-collapse text-right" id="navbarSupportedContent1">
-      <ul class="navbar-nav pt-lg-1 pb-lg-1 ml-auto">
-        <li class="nav-item active"> <a class="nav-link fe-Menu mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="index.html">Inicio <span class="sr-only">(current)</span></a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink-active mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="los_epeison.html">Los Epeison</a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="galeria.html">Galería</a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="blog.html">Blog</a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-4 pr-lg-4 navBtnDonation" href="donacion.html">Haz una donación</a> </li>
-      </ul>
+<header>
+  <!-- Navbar -->
+  <div class="container my-3">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><img class="logo" src="assets/images/logo.png" alt=""/></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-2 active">
+            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="los_epeison.html">Los Epeison</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="galeria.html">Galería</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+        </ul>
+        <a class="btn btn-danger rounded-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
+      </div>
+    </nav>
+  </div>
+  <!--hero-->
+  <div class="container-fluid px-0">
+    <div class="jumbotron rounded-0 headerImageBlog header-opacity0dot7">
+      <div class="container">
+        <p class="text-white">Blog</p>
+        <h3 class="text-white mb-3">Los escasos caballos salvajes se niegan a desaparecer</h3>
+        <p class="text-white" >Es fácil maravillarse ante la presencia de un caballo y conmueven las múltiples maneras en que ha interactuado con el ser humano cuando éste le ha respetado.</p>
+        <p class="font-weight-bold card-link">Continua leyendo...</p>
+      </div>
     </div>
   </div>
-</nav>
-<header> 
-  <!--  <div class="heCover"> <img src="assets/images/horse_index_small.jpg" class="img-fluid" alt="Placeholder image">-->
-  <div class="heItems-blog-gallery heBackImage-blog">
-    <div class="container">
-		<div class="row text-center"><div class="col"><h1 class="h1-blog mt-5 pt-4">BLOG_</h1></div></div>	
+  <!--Video modal-->
+  <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-videoTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered " role="document">
+      <div class="modal-content">
+        <div class="modal-body bg-black">
+          <div class="embed-responsive embed-responsive-16by9 m-0 p-0" id="yt-player">
+            <iframe src="https://player.vimeo.com/video/354068277" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
     </div>
-	</div>
-  <!--</div>--> 
+  </div>
 </header>
+<body>
 <main>
-<div class="container ">
-	<div class="row mt-5"></div>
-	 <div class="row justify-content-center mt-5 mb-5 ">
-	<div class="col-md-10 col-lg-5 mb-2">
-	<img src="assets/images/blog1.jpg" class="card-img w-100" alt="...">
-	</div>
-		 
-	 <div class="col-md-10 col-lg-5">
-	<a href="blog_post1.html"><h2 class="blog-title">Los caballos, víctimas del olvido, crueldad e ingratitud</h2></a>
-		 <p class="mt-n2"><small class="blog-small ">por Carla Reyes</small></p>
-		 <p class="blog-text">La búsqueda de niveles más elevados  de protección animal no sólo se basa en la necesidad de resguardar el ecosistema, sino también en la convicción que los animales... </p>
-		 <a href="blog_post1.html" class="btn blog-btn">LEER MAS</a>
-	</div>
-	 </div>
-	
-	 <div class="row justify-content-center mt-5 mb-5">
-	<div class="col-md-10 col-lg-5 mb-2">
-	<img src="assets/images/blog2.jpg" class="card-img" alt="...">
-	</div>
-		 
-	 <div class="col-md-10 col-lg-5">
-	<a href="blog_post2.html"><h2 class="blog-title">Los escasos caballos salvajes se niegan a desaparecer </h2></a>
-		 <p class="mt-n2"><small class="blog-small ">por Carla Reyes</small></p>
-		 <p class="blog-text">Es fácil maravillarse ante la presencia de un caballo y conmueven las múltiples maneras en que ha interactuado con el ser humano cuando éste le ha respetado.</p>
-		 <a href="blog_post2.html" class="btn blog-btn">LEER MAS</a>
-	</div>
-	 </div>
-	
-	 <div class="row justify-content-center mt-5 mb-5">
-	<div class="col-md-10 col-lg-5 mb-2">
-	<img src="assets/images/blog3.jpg" class="card-img" alt="...">
-	</div>
-		 
-	 <div class="col-md-10 col-lg-5">
-	<a href="blog_post3.html"><h2 class="blog-title">Los salvajes caballos de Inglaterra y el proyecto de reforestación checo.</h2></a>
-		 <p class="mt-n2"><small class="blog-small ">por Carla Reyes</small></p>
-		 <p class="blog-text">En diversas ocasiones se ha justificado la cruel matanza de caballos salvajes argumentando que ellos pueden representar una amenaza para el ecosistema. </p>
-		 <a href="blog_post3.html" class="btn blog-btn">LEER MAS</a>
-	</div>
-	 </div>
-	
-	
-	<div class="row mb-5"></div>
-	 </div>	 
-
-</main>
-<footer>
-  <div class="container pt-5">
-    <div class="row pt-5 mr-1 ml-1 mr-sm-0 ml-sm-0 ">
-      <h3>Estamos escribiendo nuevas lineas para la protección y preservación de estos caballos salvajes del sur de Chile. Tú también puedes ser parte.</h3>
-	  <p class="mx-auto">Te contaremos acerca de formas de ayudar, nuevos eventos, publicaciones y noticias</p>
-	 
+  <!--Noticias destacadas-->
+  <div class="container">
+    <div class="card-deck">
+      <div class="card rounded-0 border-0">
+        <div class="row no-gutters">
+          <div class="col-12 col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title">Los caballos, víctimas del olvido, crueldad e ingratitud</h5>
+              <p class="card-text">Es fácil maravillarse ante la presencia de un caballo y conmueven las múltiples maneras en que ha interactuado con el ser humano cuando éste le ha respetado.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="https://via.placeholder.com/228x338" class="card-img rounded-0 d-none d-lg-block" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="card rounded-0 border-0">
+        <div class="row no-gutters">
+          <div class="col-12 col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title">Los salvajes caballos de Inglaterra y el proyecto de reforestación checo.</h5>
+              <p class="card-text">En diversas ocasiones se ha justificado la cruel matanza de caballos salvajes </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="https://via.placeholder.com/228x338" class="card-img rounded-0 d-none d-lg-block" alt="...">
+          </div>
+        </div>
+      </div>
     </div>
-
+  </div>
+  <div class="container mt-5 mb-5">
     <div class="row">
-      <form class="form-inline mx-auto" action="">
-        <div class="form-group col-12 col-sm-4 col-md-4 col-lg-4">
-          <input type="text" class="form-control fe-radius" placeholder="Nombre">
+      <div class="col-12 col-lg-8">
+        <div>
+          <h3 class="mb-3">Los salvajes caballos de Inglaterra y el proyecto de reforestación checo.</h3>
         </div>
-        <div class="form-group col-12 col-sm-4 col-md-4 col-lg-4">
-          <input type="text" class="form-control fe-radius" placeholder="Correo electrónico ">
+        <div class="mb-3">
+          <p>En diversas ocasiones se ha justificado la cruel matanza de caballos salvajes argumentando que ellos pueden representar una amenaza para el ecosistema. Especies animales y vegetales son utilizadas como pretexto de maltratos que lejos están de proteger el medio ambiente. Sin embargo, el manejo sustentable de estos equinos es una alternativa respetuosa de los derechos de los animales que descarta radicalmente el uso de la fuerza en su contra. Un extraordinario ejemplo de ello y que a su vez demuestra el inmenso aporte que pueden significar las especies salvajes para la conservación de ecosistemas, es el proyecto de reforestación de parques nacionales que actualmente tiene lugar en la República Checa.</p>
+          <p>Especialistas medioambientales y el ministerio del medio ambiente de ese país han apoyado una importante medida de reforestación basada en la cría de caballos salvajes para lograr la recuperación natural del ecosistema.</p>
+          <a href="">Continua leyendo...</a>
         </div>
-        <div class="form-group col-12 col-sm-4 col-md-4 col-lg-4">
-          <button type="submit" class="btn btn-primary fe-radius btn-block fe-button-regist">Quiero saber más</button>
+      </div>
+      <div class="col-lg-4 d-none d-lg-block">
+		
+		  <div class="container">
+			  <div>
+			  <h3 class="mb-n2">Suscribete al blog</h3>
+			  <small class="text-muted">para recibir las nuevas publicaciones</small></div>
+    <form class="mt-3">
+      <div class="form-row">
+        <div class="form-group col-10">
+          <input type="email" class="form-control" id="emailSuscripcion" aria-describedby="emailHelp" placeholder="Email">
         </div>
-      </form>
+        <button type="submit" class="btn btn-danger col-10">Quiero saber más</button>
+      </div>
+    </form>
+  </div>
+		</div>
     </div>
-    <div class="row pb-5">
-      <ul class="nav flex-column flex-sm-row mx-auto text-center mt-5">
-        <li class="nav-item"> <a class="nav-link pt-3" href="donacion.html">Haz una donación</a> </li>
-        <li class="nav-item"> <a class="nav-link pt-3" href="galeria.html">Galería</a> </li>
-        <li class="nav-item"> <a class="nav-link pt-3" href="contacto.html">Contacto</a> </li>
-      <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/caballoepeison/" target="_blank"><img src="images/facebook_icon.png" width="48" height="48" alt=""/></a> </li>
-      </ul>
-    </div>
+  </div>
+</main>
+<footer class="bg-dark py-5">
+  <a name="ayudar-form"></a>
+  <!--text footer-->
+  <div class="container text-center text-white pt-md-5">
+    <h3>Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
+    <p class="mx-auto">Envíanos tu datos de contacto para contarte acerca de cómo ayudar, eventos y noticias.</p>
+  </div>
+  <!--formulario de suscripcion-->
+  <div class="container">
+    <form>
+      <div class="form-row justify-content-center ">
+        <div class="form-group col-12 col-md-5">
+          <input type="email" class="form-control" id="emailSuscripcion" aria-describedby="emailHelp" placeholder="Email">
+        </div>
+        <button type="submit" class="btn btn-danger col-9 col-md-2 ">Quiero saber más</button>
+      </div>
+    </form>
+  </div>
+  <!--nav footer-->
+  <div class="container mt-5 d-flex justify-content-center">
+    <nav class="nav flex-column flex-md-row text-center">
+      <a class="nav-link" href="donacion.html">Haz una donación</a>
+      <a class="nav-link" href="contacto.html">Contacto</a>
+      <a class="nav-link mt-md-n2" href="https://www.facebook.com/caballoepeison/" target="_blank"><span style="font-size:30px;">
+        <i class="fab fa-facebook"></i>
+        </span></a>
+    </nav>
   </div>
 </footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.3.1.min.js"></script> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.3.1.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/popper.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.3.1.js"></script>
 </body>
 </html>
