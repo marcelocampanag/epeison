@@ -146,6 +146,9 @@ body {
 .rem1d25 {
   font-size: 1.25rem
 }
+.rem1 {
+  font-size: 1rem
+}
 
 .headerImageProteccion {
   background-image: url("../assets/images/horse_proteccion_xl.jpg");
