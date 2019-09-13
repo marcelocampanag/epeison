@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- TemplateParam name="OptionalSecondaryMenu" type="boolean" value="true" -->
+<head>
+<meta charset="UTF-8 ">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+
+<!-- Fuentes-->
+<link rel="stylesheet" href="https://use.typekit.net/bpv1kso.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab" rel="stylesheet">
+<!-- CSS personalizados del sitio -->
+<link href="css/theme_epeison.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!--contenido para el head-->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<header>
+  <!-- Navbar -->
+  <div class="container my-3">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><img class="logo" src="assets/images/logo.png" alt=""/></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-2 active">
+            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="los_epeison.html">Los Epeison</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+        </ul>
+        <a class="btn btn-danger rounded-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
+      </div>
+    </nav>
+  </div>
+	<!--hero-->
+  <div class="container-fluid px-0"><!-- TemplateBeginEditable name="BackgroundImageClass" -->
+    <div class="jumbotron rounded-0 headerBackImage header-opacity"><!-- TemplateEndEditable -->
+	<!-- TemplateBeginIf cond="OptionalSecondaryMenu" -->
+      <div class="container pb-3 pb-md-0">
+        <h1 class="display-4 text-right text-white">Los Salvajes<br>
+          Epeison</h1>
+        <div class="mt-3 d-flex justify-content-end">
+          <nav class="nav flex-column">
+            <a class="nav-link text-right mb-n2" href="los_epeison.html">Quíenes son</a>
+            <a class="nav-link text-right mb-n2" href="origen_e_historia.html">Historia</a>
+            <a class="nav-link text-right mb-n2" href="proteccion.html">Protección</a>
+            <a class="nav-link text-right mb-n2" href="adaptacion.html">Adaptación</a>
+            <a class="nav-link text-right mb-n2" href="manejo_sustentable.html">Sustentabilidad</a>
+			<a class="nav-link text-right mb-n2" href="galeria.html">Galeria</a>
+            <a class="nav-link text-right mb-n2" href="#modal-video" data-toggle="modal">Documental <span style="font-size: 24px;"><i class="fas fa-play-circle"></i></span></a>
+          </nav>
+        </div><!-- TemplateEndIf -->
+      </div>
+    </div>
+  </div>
+  <!--Video modal-->
+  <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-videoTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered " role="document">
+      <div class="modal-content">
+        <div class="modal-body bg-black">
+          <div class="embed-responsive embed-responsive-16by9 m-0 p-0" id="yt-player">
+            <iframe src="https://player.vimeo.com/video/354068277" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- TemplateBeginEditable name="Main" -->
+<main>
+</main>
+<!-- TemplateEndEditable -->
+<footer class="bg-dark py-5">
+  <a name="ayudar-form"></a>
+  <!--text footer-->
+  <div class="container text-center text-white pt-md-5">
+    <h3>Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
+    <p class="mx-auto">Envíanos tu email para contarte acerca de cómo ayudar, eventos y noticias.</p>
+  </div>
+  <!--formulario de suscripcion-->
+  <div class="container ">
+    <form>
+      <div class="form-row no-gutters justify-content-center">
+        <div class="form-group col-12 col-md-5">
+          <input type="email" class="form-control" id="emailSuscripcion1" aria-describedby="emailHelp" placeholder="Email">
+        </div>
+        <button type="submit" class="btn btn-danger col-9 col-md-3 ">Quiero saber más</button>
+      </div>
+    </form>
+  </div>
+  <!--nav footer-->
+  <div class="container mt-5 d-flex justify-content-center">
+    <nav class="nav flex-column flex-md-row text-center">
+      <a class="nav-link" href="donacion.html">Haz una donación</a>
+      <a class="nav-link" href="contacto.html">Contacto</a>
+      <a class="nav-link mt-md-n2" href="https://www.facebook.com/caballoepeison/" target="_blank"><span style="font-size:30px;">
+        <i class="fab fa-facebook"></i>
+        </span></a>
+    </nav>
+  </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script>
+<!-- Iconos -->
+<script src="https://kit.fontawesome.com/28e7f0bb26.js"></script>
+<!-- TemplateBeginIf cond="OptionalSecondaryMenu" -->
+<script>
+$('#modal-video').on('hide.bs.modal', function() {
+var memory = $(this).html();
+$(this).html(memory);
+});
+</script>
+<!-- TemplateEndIf -->
+<!-- TemplateBeginEditable name="scripts" -->
+
+<script src="js/vendor.min.js"></script>
+<script src="js/theme.min.js"></script>
+<!-- TemplateEndEditable -->
+</body>
+</html>
