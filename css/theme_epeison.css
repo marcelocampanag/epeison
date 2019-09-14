@@ -69,18 +69,18 @@ body {
   width: 110px;
 }
 .backImage-index {
-  background-image: url("../assets/images/fondo_inicio.jpg");
+  background-image: url("../images/fondo_inicio.jpg");
   background-size: cover;
 }
 .headerBackImage {
-  background-image: url("../assets/images/horse_los_epeison_xl.jpg");
+  background-image: url("../images/horse_los_epeison_xl.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
 }
 .headerImageOrigen{
-  background-image: url("../assets/images/horse_origen_xl.jpg");
+  background-image: url("../images/horse_origen_xl.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -152,7 +152,7 @@ body {
 }
 
 .headerImageProteccion {
-  background-image: url("../assets/images/horse_proteccion_xl.jpg");
+  background-image: url("../images/horse_proteccion_xl.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -160,7 +160,7 @@ body {
 }
 
 .headerImageAdaptacion {
-  background-image: url("../assets/images/horse_adaptacion_xl.jpg");
+  background-image: url("../images/horse_adaptacion_xl.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -168,7 +168,7 @@ body {
 }
 
 .headerImageSustentabilidad {
-  background-image: url("../assets/images/horse_sustentabilidad_xl.jpg");
+  background-image: url("../images/horse_sustentabilidad_xl.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -176,9 +176,12 @@ body {
 }
 
 .headerImageBlog {
-  background-image: url("../assets/images/horse_index_xl.jpg");
+  background-image: url("../images/horse_index_xl.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
   background-repeat: no-repeat;	
+}
+.title-text{
+	font-family: 'Roboto Slab', serif;
 }
