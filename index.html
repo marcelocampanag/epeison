@@ -4,13 +4,15 @@
 <!-- InstanceParam name="TitleH1AndP" type="boolean" value="false" -->
 <!-- InstanceParam name="classInicioActive" type="text" value="nav-item mx-2 active" -->
 <!-- InstanceParam name="classLosEpeisonActive" type="text" value="nav-item mx-2" -->
-<!-- InstanceParam name="classBlogActive" type="text" value="nav-item mx-2" -->	
+<!-- InstanceParam name="classBlogActive" type="text" value="nav-item mx-2" -->
 <!-- InstanceParam name="classQuienes" type="text" value="nav-link text-right mb-n2" -->
 <!-- InstanceParam name="classHistoria" type="text" value="nav-link text-right mb-n2" -->
 <!-- InstanceParam name="classProteccion" type="text" value="nav-link text-right mb-n2" -->
 <!-- InstanceParam name="classAdaptacion" type="text" value="nav-link text-right mb-n2" -->
 <!-- InstanceParam name="classSustentabilidad" type="text" value="nav-link text-right mb-n2" -->
 <!-- InstanceParam name="classGaleria" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classJumbotronIndex" type="text" value="container-fluid px-0 d-lg-none" -->
+<!-- InstanceParam name="OptionalBackgroundIndexVideo" type="boolean" value="true" -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +58,52 @@
     </nav>
   </div>
   <!--hero-->
-  <div class="container-fluid px-0"><!-- InstanceBeginEditable name="BackgroundImageClass" -->
+  
+  <div id="header-index" class="d-none d-lg-flex">
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="http://epeison.org/des/wp-content/uploads/2019/08/video_fondo.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3 tk-enchanted">Los Epeison</h1>
+          <h2 class="text-center">Conoce su historia, el brutal maltrato al que se vieron sometidos y su sorprendente vida salvaje</h2>
+          <div class="container pt-3">
+            <div class="row pb-5">
+              <ul class="nav flex-column flex-sm-row mx-auto mt-3">
+                <li class="nav-item">
+                  <a class="nav-link nav-menu-index pt-3" href="los_epeison.html">Quíenes son</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-menu-index pt-3" href="origen_e_historia.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-menu-index pt-3" href="proteccion.html">Protección</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-menu-index pt-3" href="adaptacion.html">Adaptación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-menu-index pt-3" href="manejo_sustentable.html">Sustentabilidad</a>
+                </li>
+				<li class="nav-item">
+                  <a class="nav-link nav-menu-index pt-3" href="galeria.html">Galería</a>
+                </li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="col mx-auto">
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target=".bd-example-modal-xl">Ve el Documental <span style="font-size: 18px;"><i class="fas fa-play-circle"></i></span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid px-0 d-lg-none"><!-- InstanceBeginEditable name="BackgroundImageClass" -->
     <div class="jumbotron headerBackImage black-opacity-05">
     <!-- InstanceEndEditable -->
     
@@ -94,7 +141,7 @@
   </header>
 <!-- InstanceBeginEditable name="Main" -->
 <main>
-	<!--cards texto introductivos-->
+		<!--cards texto introductivos-->
   <section>
     <div class="container d-flex justify-content-center">
       <div class="card-deck  m-3 m-lg-5">
