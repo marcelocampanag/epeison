@@ -94,7 +94,7 @@
             </div>
             <div class="row">
               <div class="col mx-auto">
-                <button type="button" class="btn btn-light" data-toggle="modal" data-target=".bd-example-modal-xl">Ve el Documental <span style="font-size: 18px;"><i class="fas fa-play-circle"></i></span></button>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal-video">Ve el Documental <span style="font-size: 18px;"><i class="fas fa-play-circle"></i></span></button>
               </div>
             </div>
           </div>
