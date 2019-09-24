@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><!-- InstanceBegin template="/Templates/principal.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- InstanceParam name="OptionalSecondaryMenu" type="boolean" value="true" -->
+<!-- InstanceParam name="TitleH1AndP" type="boolean" value="false" -->
+<!-- InstanceParam name="classInicioActive" type="text" value="nav-item mx-2 " -->
+<!-- InstanceParam name="classLosEpeisonActive" type="text" value="nav-item mx-2 active" -->
+<!-- InstanceParam name="classBlogActive" type="text" value="nav-item mx-2" -->	
+<!-- InstanceParam name="classQuienes" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classHistoria" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classProteccion" type="text" value="nav-link text-right mb-n2 active" -->
+<!-- InstanceParam name="classAdaptacion" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classSustentabilidad" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classGaleria" type="text" value="nav-link text-right mb-n2" -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Untitled Document</title>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Protección contra la matanza</title>
+<!-- InstanceEndEditable -->
+
 <!-- Bootstrap -->
-<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 <!-- Fuentes-->
 <link rel="stylesheet" href="https://use.typekit.net/bpv1kso.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab|Anonymous+Pro" rel="stylesheet">
 <!-- CSS personalizados del sitio -->
-<link href="css/theme_epeison.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!--contenido para el head-->
+<!-- InstanceEndEditable -->
 </head>
 <body>
 <header>
@@ -24,47 +41,49 @@
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarText">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-2">
+          <li class="nav-item mx-2 ">
             <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item mx-2 active">
             <a class="nav-link" href="los_epeison.html">Los Epeison</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="galeria.html">Galería</a>
-          </li>
-          <li class="nav-item mx-2">
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
         </ul>
-        <a class="btn btn-danger rounded-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
+        <a class="btn btn-primary mt-2 mt-md-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
       </div>
     </nav>
   </div>
   <!--hero-->
-  <div class="container-fluid px-0">
-    <div class="jumbotron rounded-0 headerImageProteccion header-opacity">
-      <div class="container">
-        <h1 class="display-4 text-right text-white">Los Salvajes<br>
-          Epeison</h1>
-        <div class="mt-3 d-flex justify-content-end">
-          <nav class="nav flex-column">
-            <a class="nav-link text-right mb-n2" href="los_epeison.html">Quíenes son</a>
-            <a class="nav-link text-right mb-n2" href="origen_e_historia.html">Historia</a>
-            <a class="nav-link active text-right mb-n2" href="proteccion.html">Protección</a>
-            <a class="nav-link text-right mb-n2" href="adaptacion.html">Adaptación</a>
-            <a class="nav-link text-right mb-n2" href="manejo_sustentable.html">Sustentabilidad</a>
-            <a class="nav-link text-right mb-n2" href="#modal-video" data-toggle="modal">Documental <span style="font-size: 24px;"><i class="fas fa-play-circle"></i></span></a>
-          </nav>
-        </div>
+  <div class="container-fluid px-0"><!-- InstanceBeginEditable name="BackgroundImageClass" -->
+    <div class="jumbotron headerImageProteccion black-opacity-05">
+    <!-- InstanceEndEditable -->
+    
+    <div class="container pb-3 pb-md-0">
+      <h1 class="display-4 principal-title text-right text-white">Los Salvajes<br>
+        Epeison</h1>
+      <div class="mt-3 d-flex justify-content-end">
+        <nav class="nav flex-column">
+          <a class="nav-link text-right mb-n2" href="los_epeison.html">Quíenes son</a>
+          <a class="nav-link text-right mb-n2" href="origen_e_historia.html">Historia</a>
+          <a class="nav-link text-right mb-n2 active" href="proteccion.html">Protección</a>
+          <a class="nav-link text-right mb-n2" href="adaptacion.html">Adaptación</a>
+          <a class="nav-link text-right mb-n2" href="manejo_sustentable.html">Sustentabilidad</a>
+          <a class="nav-link text-right mb-n2" href="galeria.html">Galeria</a>
+          <a class="nav-link text-right mb-n2" href="#modal-video" data-toggle="modal">Documental <span style="font-size: 24px;"><i class="fas fa-play-circle"></i></span></a>
+        </nav>
       </div>
     </div>
+    
   </div>
+  </div>
+  
   <!--Video modal-->
   <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-videoTitle" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered " role="document">
-      <div class="modal-content">
-        <div class="modal-body bg-black">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+      <div class="modal-content bg-info">
+        <div class="modal-body">
           <div class="embed-responsive embed-responsive-16by9 m-0 p-0" id="yt-player">
             <iframe src="https://player.vimeo.com/video/354068277" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
@@ -72,11 +91,12 @@
       </div>
     </div>
   </div>
-</header>
+  </header>
+<!-- InstanceBeginEditable name="Main" -->
 <main>
   <section>
     <div class="container">
-      <h2 class="display-4 mt-3 mt-lg-5 pt-5 mb-4 ">Protección</h2>
+      <h2 class="display-4 text-center text-monospace mt-3 mt-lg-5 pt-5 mb-4 ">Protección</h2>
       <h3 class="text-center rem1d5">Los Epeison vivían en libertad, indomables como su espíritu, hasta que en julio del año 2013 ésta se vió amenazada debido a un contrato que puso en peligro su existencia.</h3>
     </div>
   </section>
@@ -89,43 +109,40 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 lh-1d5 rem1d25 pl-lg-5">
-<p>La Hacienda Yendegaia, de más de 38 mil hectáreas de extensión, pertenecía al señor Douglas Tompkins, quien donó dichas tierras al gobierno de Chile durante el primer mandato de Sebastian Piñera. Sin embargo, al momento de materializarse la donación el señor Tompkins no informó que existía un contrato celebrado ante notario por él a través de su Fundación Yendegaia y el señor Miguel Serka, mediante el cual se le autorizaba a este último a cazar con fines de muerte a los caballos salvajes de la zona durante los siguientes 4 años. A su vez, el documento comprometía la entrega del 15% de la ganancias de dicha cacería, a la fundación Yendegaia. La justificación de este contrato fue el supuesto peligro que representaba esta especie para el ecosistema del lugar porque serían equinos no originarios de la zona.
-</p>
-          <a id="btn-continue" class="secondary-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> Continua leyendo </a>
+          <p>La Hacienda Yendegaia, de más de 38 mil hectáreas de extensión, pertenecía al señor Douglas Tompkins, quien donó dichas tierras al gobierno de Chile durante el primer mandato de Sebastian Piñera. Sin embargo, al momento de materializarse la donación el señor Tompkins no informó que existía un contrato celebrado ante notario por él a través de su Fundación Yendegaia y el señor Miguel Serka, mediante el cual se le autorizaba a este último a cazar con fines de muerte a los caballos salvajes de la zona durante los siguientes 4 años. A su vez, el documento comprometía la entrega del 15% de la ganancias de dicha cacería, a la fundación Yendegaia. La justificación de este contrato fue el supuesto peligro que representaba esta especie para el ecosistema del lugar porque serían equinos no originarios de la zona. </p>
+          <a id="btn-continue" class="text-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> Continua leyendo </a>
           <div class="collapse" id="collapseExample">
             <div>
               <p>Esta autorización de caza produjo la muerte despiadada de muchos ejemplares y en otros casos, cruentas lesiones, como quebraduras de patas, perforaciones de flechas con productos químicos en sus puntas o heridas de bala. Los Epeison, vieron atacada su pacífica existencia por redes de pesca, ataques de perros y ballestas, todos métodos utilizados para llevar a cabo los cometidos del contrato de caza. Al mismo tiempo, se permitió la captura y el arreo forzado y violento de los Epeison a transbordadores que los alejarían para siempre de sus manadas y de las tierras que consideraban su hogar.</p>
-
-<p>En este contexto, y movidos por una profunda admiración y amor hacia a estos animales, creamos la Fundación de Caballos Epeison de la cordillera de Darwin, con el fin de protegerlos del maltrato y matanza. Estamos convencidos que su permanencia en Tierra del Fuego es de inestimable valor por ser un tipo de equinos únicos en el mundo y que el manejo sustentable de la especie permite su existencia en armonía con el ecosistema austral de Chile, del cual ya forman parte porque se han reproducido durante generaciones en Tierra del Fuego, característica que permite considerarlos fauna propia de lugar. 
-</p>
+              <p>En este contexto, y movidos por una profunda admiración y amor hacia a estos animales, creamos la Fundación de Caballos Epeison de la cordillera de Darwin, con el fin de protegerlos del maltrato y matanza. Estamos convencidos que su permanencia en Tierra del Fuego es de inestimable valor por ser un tipo de equinos únicos en el mundo y que el manejo sustentable de la especie permite su existencia en armonía con el ecosistema austral de Chile, del cual ya forman parte porque se han reproducido durante generaciones en Tierra del Fuego, característica que permite considerarlos fauna propia de lugar. </p>
               <div class="row my-5 d-flex justify-content-around">
-                <a class="arrow-link" href="origen_e_historia.html">&#171; Historia</a>
-                <a class="arrow-link" href="adaptacion.html">Adaptación &#187;</a>
+                <a class="text-secondary" href="origen_e_historia.html">&#171; Historia</a>
+                <a class="text-secondary" href="adaptacion.html">Adaptación &#187;</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>	
+  </section>
 </main>
+<!-- InstanceEndEditable -->
 <footer class="bg-dark py-5">
+  <a name="ayudar-form"></a>
   <!--text footer-->
   <div class="container text-center text-white pt-md-5">
-    <h3>Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
-    <p class="mx-auto">Envíanos tu datos de contacto para contarte acerca de cómo ayudar, eventos y noticias.</p>
+    <h3 class="d-none d-md-block offset-1 col-10 text-center">Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
+    <h3 class="col-12 d-md-none text-center">Tú también puedes tomar parte en la protección de Los Epeison.</h3>
+    <p class="mx-auto">Déjanos tu email para contarte cómo ayudar</p>
   </div>
   <!--formulario de suscripcion-->
   <div class="container ">
     <form>
       <div class="form-row justify-content-center">
-        <div class="form-group col-12 col-md-3">
-          <input type="text" class="form-control" id="nameSuscripcion" placeholder="Nombre">
+        <div class="form-group col-12 col-md-5 m-b-2 mb-md-0">
+          <input type="email" class="form-control" id="emailSuscripcion1" aria-describedby="emailHelp" placeholder="Email">
         </div>
-        <div class="form-group col-12 col-md-3">
-          <input type="email" class="form-control" id="emailSuscripcion" aria-describedby="emailHelp" placeholder="Email">
-        </div>
-        <button type="submit" class="btn btn-danger col-9 col-md-3 ">Quiero saber más</button>
+        <button type="submit" class="btn btn-primary col-9 col-md-3 ml-n2">Quiero saber más</button>
       </div>
     </form>
   </div>
@@ -149,15 +166,19 @@
 <script src="js/bootstrap-4.3.1.js"></script>
 <!-- Iconos -->
 <script src="https://kit.fontawesome.com/28e7f0bb26.js"></script>
-	<script>
+
+<script>
 $('#modal-video').on('hide.bs.modal', function() {
 var memory = $(this).html();
 $(this).html(memory);
 });
 </script>
+
+<!-- InstanceBeginEditable name="scripts" -->
 <script>$("#btn-continue").click(function() {
     $(this).fadeOut(1);
     $("textarea").fadeIn(1);
   });</script>
+<!-- InstanceEndEditable -->
 </body>
-</html>
+<!-- InstanceEnd --></html>

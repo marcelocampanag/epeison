@@ -1,128 +1,256 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+<!-- InstanceBegin template="/Templates/principal.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- InstanceParam name="OptionalSecondaryMenu" type="boolean" value="true" -->
+<!-- InstanceParam name="TitleH1AndP" type="boolean" value="false" -->
+<!-- InstanceParam name="classInicioActive" type="text" value="nav-item mx-2" -->
+<!-- InstanceParam name="classLosEpeisonActive" type="text" value="nav-item mx-2 active" -->
+<!-- InstanceParam name="classBlogActive" type="text" value="nav-item mx-2" -->
+<!-- InstanceParam name="classQuienes" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classHistoria" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classProteccion" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classAdaptacion" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classSustentabilidad" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classGaleria" type="text" value="nav-link text-right mb-n2 active" -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fundación Los Epeison</title>
-<!--Styles-->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Galería</title>
+<!-- InstanceEndEditable -->
 
+<!-- Bootstrap -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+<!-- Fuentes-->
 <link rel="stylesheet" href="https://use.typekit.net/bpv1kso.css">
-<link href="https://fonts.googleapis.com/css?family=Rubik:400,900|Archivo+Black|Lacquer|Anton|Open+Sans|Roboto+Slab&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/normalize.css">
-<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
-
-<!--<link href="css/vendor.min.css" rel="stylesheet">-->
-
-<link href="css/fe-styles-1.0.css" rel="stylesheet">
-<link href="css/theme1.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab|Anonymous+Pro" rel="stylesheet">
+<!-- CSS personalizados del sitio -->
+<!-- InstanceBeginEditable name="head" -->
+<!--contenido para el head-->
+<!-- InstanceEndEditable -->
 </head>
 <body>
-<!--style="padding-top: 56px"--> 
-<!-- body code goes here -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container"> <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png" alt=""/></a>
-    <button class="navbar-toggler border-0 togFontSize" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-			aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span
-				class="navbar-toggler-icon"></span> </button>
-    <div class="collapse navbar-collapse text-right" id="navbarSupportedContent1">
-      <ul class="navbar-nav pt-lg-1 pb-lg-1 ml-auto">
-        <li class="nav-item active"> <a class="nav-link fe-Menu mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="index.html">Inicio <span class="sr-only">(current)</span></a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink-active mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="los_epeison.html">Los Epeison</a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="galeria.html">Galería</a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-3 pr-lg-3" href="blog.html">Blog</a> </li>
-        <li class="nav-item"> <a class="nav-link fe-mainNavLink mr-3 mr-lg-0 pl-lg-4 pr-lg-4 navBtnDonation" href="donacion.html">Haz una donación</a> </li>
-      </ul>
+<header>
+  <!-- Navbar -->
+  <div class="container my-3">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png" alt=""/></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-2 active">
+            <a class="nav-link" href="los_epeison.html">Los Epeison</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+        </ul>
+        <a class="btn btn-primary mt-2 mt-md-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
+      </div>
+    </nav>
+  </div>
+  <!--hero-->
+  <div class="container-fluid px-0"><!-- InstanceBeginEditable name="BackgroundImageClass" -->
+    <div class="jumbotron headerBackImage black-opacity-05">
+    <!-- InstanceEndEditable -->
+    <div class="container pb-3 pb-md-0">
+      <h1 class="display-4 principal-title text-right text-white">Los Salvajes<br>
+        Epeison</h1>
+      <div class="mt-3 d-flex justify-content-end">
+        <nav class="nav flex-column">
+          <a class="nav-link text-right mb-n2" href="los_epeison.html">Quíenes son</a>
+          <a class="nav-link text-right mb-n2" href="origen_e_historia.html">Historia</a>
+          <a class="nav-link text-right mb-n2" href="proteccion.html">Protección</a>
+          <a class="nav-link text-right mb-n2" href="adaptacion.html">Adaptación</a>
+          <a class="nav-link text-right mb-n2" href="manejo_sustentable.html">Sustentabilidad</a>
+          <a class="nav-link text-right mb-n2 active" href="galeria.html">Galeria</a>
+          <a class="nav-link text-right mb-n2" href="#modal-video" data-toggle="modal">Documental <span style="font-size: 24px;"><i class="fas fa-play-circle"></i></span></a>
+        </nav>
+      </div>
     </div>
   </div>
-</nav>
-<header>
-  <div class="container text-center">
-    <div class="row mt-5 mb-3">
-      <div class="col-12">
-        <h1 class="">Galería</h1>
+  </div>
+  
+  <!--Video modal-->
+  <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-videoTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+      <div class="modal-content bg-info">
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9 m-0 p-0" id="yt-player">
+            <iframe src="https://player.vimeo.com/video/354068277" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </header>
+<!-- InstanceBeginEditable name="Main" -->
 <main>
-	<section>
-	<!-- Gallery Masonry Grid with Gutters -->
-		<div class="container">
-<div class="isotope-grid cols-3">
-  <div class="gutter-sizer"></div>
-  <div class="grid-sizer"></div>
-  <div class="grid-item">
-    <a class="gallery-item" href="images/gallery/habitat_ext/l1.jpg" data-fancybox="gallery4" data-options='{"caption": "Gallery Image Caption"}'>
-      <img src="images/gallery/habitat_ext/t1.jpg" alt="Gallery Image"/>
-    </a>
-  </div>
-    <div class="grid-item">
-    <a class="gallery-item" href="images/gallery/habitat_ext/l2.jpg" data-fancybox="gallery4" data-options='{"caption": "Gallery Image Caption"}'>
-      <img src="images/gallery/habitat_ext/t2.jpg" alt="Gallery Image"/>
-    </a>
-  </div>
-  <div class="grid-item">
-    <a class="gallery-item" href="images/gallery/habitat_ext/l3.jpg" data-fancybox="gallery4" data-options='{"caption": "Gallery Image Caption"}'>
-      <img src="images/gallery/habitat_ext/t3.jpg" alt="Gallery Image"/>
-    </a>
-  </div>
-  <div class="grid-item">
-    <a class="gallery-item" href="images/gallery/habitat_ext/l4.jpg" data-fancybox="gallery4" data-options='{"caption": "Gallery Image Caption"}'>
-      <img src="images/gallery/habitat_ext/t4.jpg" alt="Gallery Image"/>
-    </a>
-  </div>
-<div class="grid-item">
-    <a class="gallery-item" href="images/gallery/habitat_ext/l6.jpg" data-fancybox="gallery4" data-options='{"caption": "Gallery Image Caption"}'>
-      <img src="images/gallery/habitat_ext/t6.jpg" alt="Gallery Image"/>
-    </a>
-  </div>
-	<div class="grid-item">
-    <a class="gallery-item" href="images/gallery/habitat_ext/l5.jpg" data-fancybox="gallery4" data-options='{"caption": "Gallery Image Caption"}'>
-      <img src="images/gallery/habitat_ext/t5.jpg" alt="Gallery Image"/>
-    </a>
-  </div>
-</div>
-			</div>
-	</section>
- 
+  <section>
+    <!-- Gallery Masonry Grid with Gutters -->
+    <div class="container">
+      <div class="row mt-4 mb-2 mx-auto">
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/habitat_ext/l1.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/habitat_ext/t1.jpg" class="img-fluid" alt="Gallery Image"/>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/habitat_ext/l2.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/habitat_ext/t2.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/habitat_ext/l3.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/habitat_ext/t3.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/habitat_ext/l4.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/habitat_ext/t4.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/habitat_ext/l5.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/habitat_ext/t5.jpg"  class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/habitat_ext/l6.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/habitat_ext/t6.jpg"  class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+
+		<div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/libertad/l1.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/libertad/t1.jpg" class="img-fluid" alt="Gallery Image"/>
+          </a>
+        </div>
+<div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/libertad/l2.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/libertad/t2.jpg" class="img-fluid" alt="Gallery Image"/>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/libertad/l3.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/libertad/t3.jpg" class="img-fluid" alt="Gallery Image"/>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/libertad/l4.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/libertad/t4.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+		          <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/libertad/l5.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/libertad/t5.jpg" class="img-fluid" alt="Gallery Image"/>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/libertad/l6.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/libertad/t6.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+		        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/maltrato/l1.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/maltrato/t1.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+		  		        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/maltrato/l2.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/maltrato/t2.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+		  		        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/maltrato/l3.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/maltrato/t3.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+		  		        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/maltrato/l4.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/maltrato/t4.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+		  		        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/maltrato/l5.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/maltrato/t5.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+		  		        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/maltrato/l6.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/maltrato/t6.jpg" class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+		         <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/habitat_ext/l7.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/habitat_ext/t7.jpg"  class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+		          <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <a class="gallery-item" href="images/gallery/habitat_ext/l8.jpg" data-fancybox="gallery4">
+            <img src="images/gallery/habitat_ext/t8.jpg"  class="img-fluid"  alt="Gallery Image"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
-<footer>
-  <div class="container pt-5">
-    <div class="row pt-5 mr-1 ml-1 mr-sm-0 ml-sm-0 ">
-      <h3>Estamos escribiendo nuevas lineas para la protección y preservación de estos caballos salvajes del sur de Chile. Tú también puedes ser parte.</h3>
-      <p class="mx-auto">Te contaremos acerca de formas de ayudar, nuevos eventos, publicaciones y noticias</p>
-    </div>
-    <div class="row">
-      <form class="form-inline mx-auto" action="">
-        <div class="form-group col-12 col-sm-4 col-md-4 col-lg-4">
-          <input type="text" class="form-control fe-radius" placeholder="Nombre">
+<!-- InstanceEndEditable -->
+<footer class="bg-dark py-5">
+  <a name="ayudar-form"></a>
+  <!--text footer-->
+  <div class="container text-center text-white pt-md-5">
+    <h3 class="d-none d-md-block offset-1 col-10 text-center">Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
+    <h3 class="col-12 d-md-none text-center">Tú también puedes tomar parte en la protección de Los Epeison.</h3>
+    <p class="mx-auto">Déjanos tu email para contarte cómo ayudar</p>
+  </div>
+  <!--formulario de suscripcion-->
+  <div class="container ">
+    <form>
+      <div class="form-row justify-content-center">
+        <div class="form-group col-12 col-md-5 m-b-2 mb-md-0">
+          <input type="email" class="form-control" id="emailSuscripcion1" aria-describedby="emailHelp" placeholder="Email">
         </div>
-        <div class="form-group col-12 col-sm-4 col-md-4 col-lg-4">
-          <input type="text" class="form-control fe-radius" placeholder="Correo electrónico ">
-        </div>
-        <div class="form-group col-12 col-sm-4 col-md-4 col-lg-4">
-          <button type="submit" class="btn btn-primary fe-radius btn-block fe-button-regist">Quiero ser parte</button>
-        </div>
-      </form>
-    </div>
-    <div class="row pb-5">
-      <ul class="nav flex-column flex-sm-row mx-auto text-center mt-5">
-        <li class="nav-item"> <a class="nav-link pt-3" href="donacion.html">Haz una donación</a> </li>
-        <li class="nav-item"> <a class="nav-link pt-3" href="galeria.html">Galería</a> </li>
-        <li class="nav-item"> <a class="nav-link pt-3" href="contacto.html">Contacto</a> </li>
-      <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/caballoepeison/" target="_blank"><img src="images/facebook_icon.png" width="48" height="48" alt=""/></a> </li>
-      </ul>
-    </div>
+        <button type="submit" class="btn btn-primary col-9 col-md-3 ml-n2">Quiero saber más</button>
+      </div>
+    </form>
+  </div>
+  <!--nav footer-->
+  <div class="container mt-5 d-flex justify-content-center">
+    <nav class="nav flex-column flex-md-row text-center">
+      <a class="nav-link" href="donacion.html">Haz una donación</a>
+      <a class="nav-link" href="contacto.html">Contacto</a>
+      <a class="nav-link mt-md-n2" href="https://www.facebook.com/caballoepeison/" target="_blank"><span style="font-size:30px;">
+        <i class="fab fa-facebook"></i>
+        </span></a>
+    </nav>
   </div>
 </footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.3.1.min.js"></script> 
 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/popper.min.js"></script> 
-<script src="js/bootstrap-4.3.1.js"></script> 
-<script src="js/vendor.min.js"></script>
-<script src="js/theme.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script>
+<!-- Iconos -->
+<script src="https://kit.fontawesome.com/28e7f0bb26.js"></script>
+<script>
+$('#modal-video').on('hide.bs.modal', function() {
+var memory = $(this).html();
+$(this).html(memory);
+});
+</script>
+<!-- InstanceBeginEditable name="scripts" -->
+<script src="js/jquery.fancybox.min.js"></script>
+<!-- InstanceEndEditable -->
 </body>
+<!-- InstanceEnd -->
 </html>

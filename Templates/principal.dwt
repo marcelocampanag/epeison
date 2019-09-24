@@ -4,9 +4,14 @@
 <!-- TemplateParam name="TitleH1AndP" type="boolean" value="true" -->
 <!-- TemplateParam name="classInicioActive" type="text" value="nav-item mx-2 active" -->
 <!-- TemplateParam name="classLosEpeisonActive" type="text" value="nav-item mx-2" -->
-<!-- TemplateParam name="classBlogActive" type="text" value="nav-item mx-2" -->
+<!-- TemplateParam name="classBlogActive" type="text" value="nav-item mx-2" -->	
+<!-- TemplateParam name="classQuienes" type="text" value="nav-link text-right mb-n2 active" -->
+<!-- TemplateParam name="classHistoria" type="text" value="nav-link text-right mb-n2" -->
+<!-- TemplateParam name="classProteccion" type="text" value="nav-link text-right mb-n2" -->
+<!-- TemplateParam name="classAdaptacion" type="text" value="nav-link text-right mb-n2" -->
+<!-- TemplateParam name="classSustentabilidad" type="text" value="nav-link text-right mb-n2" -->
+<!-- TemplateParam name="classGaleria" type="text" value="nav-link text-right mb-n2" -->
 <head>
-<meta charset="UTF-8 ">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,13 +20,12 @@
 <!-- TemplateEndEditable -->
 
 <!-- Bootstrap -->
-<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
-
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 <!-- Fuentes-->
 <link rel="stylesheet" href="https://use.typekit.net/bpv1kso.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab|Anonymous+Pro" rel="stylesheet">
 <!-- CSS personalizados del sitio -->
-<link href="css/theme_epeison.css" rel="stylesheet" type="text/css">
 <!-- TemplateBeginEditable name="head" -->
 <!--contenido para el head-->
 <!-- TemplateEndEditable -->
@@ -47,13 +51,13 @@
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
         </ul>
-        <a class="btn btn-danger rounded-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
+        <a class="btn btn-primary mt-2 mt-md-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
       </div>
     </nav>
   </div>
   <!--hero-->
   <div class="container-fluid px-0"><!-- TemplateBeginEditable name="BackgroundImageClass" -->
-    <div class="jumbotron rounded-0 headerBackImage header-opacity">
+    <div class="jumbotron headerBackImage black-opacity-05">
     <!-- TemplateEndEditable --><!-- TemplateBeginIf cond="TitleH1AndP" --><!-- TemplateBeginEditable name="H1AndPTitle" -->
     <div class="container">
       <div class="row">
@@ -68,16 +72,16 @@
     <!-- TemplateEndEditable --><!-- TemplateEndIf -->
     <!-- TemplateBeginIf cond="OptionalSecondaryMenu" -->
     <div class="container pb-3 pb-md-0">
-      <h1 class="display-4 text-right text-white">Los Salvajes<br>
+      <h1 class="display-4 principal-title text-right text-white">Los Salvajes<br>
         Epeison</h1>
       <div class="mt-3 d-flex justify-content-end">
         <nav class="nav flex-column">
-          <a class="nav-link text-right mb-n2" href="los_epeison.html">Quíenes son</a>
-          <a class="nav-link text-right mb-n2" href="origen_e_historia.html">Historia</a>
-          <a class="nav-link text-right mb-n2" href="proteccion.html">Protección</a>
-          <a class="nav-link text-right mb-n2" href="adaptacion.html">Adaptación</a>
-          <a class="nav-link text-right mb-n2" href="manejo_sustentable.html">Sustentabilidad</a>
-          <a class="nav-link text-right mb-n2" href="galeria.html">Galeria</a>
+          <a class="@@(_document['classQuienes'])@@" href="los_epeison.html">Quíenes son</a>
+          <a class="@@(_document['classHistoria'])@@" href="origen_e_historia.html">Historia</a>
+          <a class="@@(_document['classProteccion'])@@" href="proteccion.html">Protección</a>
+          <a class="@@(_document['classAdaptacion'])@@" href="adaptacion.html">Adaptación</a>
+          <a class="@@(_document['classSustentabilidad'])@@" href="manejo_sustentable.html">Sustentabilidad</a>
+          <a class="@@(_document['classGaleria'])@@" href="galeria.html">Galeria</a>
           <a class="nav-link text-right mb-n2" href="#modal-video" data-toggle="modal">Documental <span style="font-size: 24px;"><i class="fas fa-play-circle"></i></span></a>
         </nav>
       </div>
@@ -88,9 +92,9 @@
   <!-- TemplateBeginIf cond="OptionalSecondaryMenu" -->
   <!--Video modal-->
   <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-videoTitle" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered " role="document">
-      <div class="modal-content">
-        <div class="modal-body bg-black">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+      <div class="modal-content bg-info">
+        <div class="modal-body">
           <div class="embed-responsive embed-responsive-16by9 m-0 p-0" id="yt-player">
             <iframe src="https://player.vimeo.com/video/354068277" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
@@ -107,17 +111,18 @@
   <a name="ayudar-form"></a>
   <!--text footer-->
   <div class="container text-center text-white pt-md-5">
-    <h3>Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
-    <p class="mx-auto">Envíanos tu email para contarte acerca de cómo ayudar, eventos y noticias.</p>
+    <h3 class="d-none d-md-block offset-1 col-10 text-center">Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
+    <h3 class="col-12 d-md-none text-center">Tú también puedes tomar parte en la protección de Los Epeison.</h3>
+    <p class="mx-auto">Déjanos tu email para contarte cómo ayudar</p>
   </div>
   <!--formulario de suscripcion-->
   <div class="container ">
     <form>
-      <div class="form-row no-gutters justify-content-center">
-        <div class="form-group col-12 col-md-5">
+      <div class="form-row justify-content-center">
+        <div class="form-group col-12 col-md-5 m-b-2 mb-md-0">
           <input type="email" class="form-control" id="emailSuscripcion1" aria-describedby="emailHelp" placeholder="Email">
         </div>
-        <button type="submit" class="btn btn-danger col-9 col-md-3 ">Quiero saber más</button>
+        <button type="submit" class="btn btn-primary col-9 col-md-3 ml-n2">Quiero saber más</button>
       </div>
     </form>
   </div>

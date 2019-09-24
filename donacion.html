@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- InstanceBegin template="/Templates/principal.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="/Templates/principal.dwt" codeOutsideHTMLIsLocked="false" -->
 <!-- InstanceParam name="OptionalSecondaryMenu" type="boolean" value="false" -->
 <!-- InstanceParam name="TitleH1AndP" type="boolean" value="true" -->
 <!-- InstanceParam name="classInicioActive" type="text" value="nav-item mx-2" -->
 <!-- InstanceParam name="classLosEpeisonActive" type="text" value="nav-item mx-2" -->
-<!-- InstanceParam name="classBlogActive" type="text" value="nav-item mx-2" -->
+<!-- InstanceParam name="classBlogActive" type="text" value="nav-item mx-2" -->	
+<!-- InstanceParam name="classQuienes" type="text" value="nav-link text-right mb-n2 active" -->
+<!-- InstanceParam name="classHistoria" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classProteccion" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classAdaptacion" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classSustentabilidad" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classGaleria" type="text" value="nav-link text-right mb-n2" -->
 <head>
-<meta charset="UTF-8 ">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,13 +20,12 @@
 <!-- InstanceEndEditable -->
 
 <!-- Bootstrap -->
-<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
-
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 <!-- Fuentes-->
 <link rel="stylesheet" href="https://use.typekit.net/bpv1kso.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab|Anonymous+Pro" rel="stylesheet">
 <!-- CSS personalizados del sitio -->
-<link href="css/theme_epeison.css" rel="stylesheet" type="text/css">
 <!-- InstanceBeginEditable name="head" -->
 <!--contenido para el head-->
 <!-- InstanceEndEditable -->
@@ -48,13 +51,13 @@
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
         </ul>
-        <a class="btn btn-danger rounded-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
+        <a class="btn btn-primary mt-2 mt-md-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
       </div>
     </nav>
   </div>
   <!--hero-->
   <div class="container-fluid px-0"><!-- InstanceBeginEditable name="BackgroundImageClass" -->
-    <div class="jumbotron rounded-0 headerBackImage header-opacity">
+    <div class="jumbotron rounded-0 headerImageDonacion black-opacity-05">
     <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="H1AndPTitle" -->
     <div class="container">
       <div class="row">
@@ -67,9 +70,10 @@
       </div>
     </div>
     <!-- InstanceEndEditable -->
+    
   </div>
   </div>
-</header>
+  </header>
 <!-- InstanceBeginEditable name="Main" -->
 <main>
   <div class="container">
@@ -90,17 +94,18 @@
   <a name="ayudar-form"></a>
   <!--text footer-->
   <div class="container text-center text-white pt-md-5">
-    <h3>Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
-    <p class="mx-auto">Envíanos tu email para contarte acerca de cómo ayudar, eventos y noticias.</p>
+    <h3 class="d-none d-md-block offset-1 col-10 text-center">Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
+    <h3 class="col-12 d-md-none text-center">Tú también puedes tomar parte en la protección de Los Epeison.</h3>
+    <p class="mx-auto">Déjanos tu email para contarte cómo ayudar</p>
   </div>
   <!--formulario de suscripcion-->
   <div class="container ">
     <form>
-      <div class="form-row no-gutters justify-content-center">
-        <div class="form-group col-12 col-md-5">
+      <div class="form-row justify-content-center">
+        <div class="form-group col-12 col-md-5 m-b-2 mb-md-0">
           <input type="email" class="form-control" id="emailSuscripcion1" aria-describedby="emailHelp" placeholder="Email">
         </div>
-        <button type="submit" class="btn btn-danger col-9 col-md-3 ">Quiero saber más</button>
+        <button type="submit" class="btn btn-primary col-9 col-md-3 ml-n2">Quiero saber más</button>
       </div>
     </form>
   </div>
@@ -124,9 +129,9 @@
 <script src="js/bootstrap-4.3.1.js"></script>
 <!-- Iconos -->
 <script src="https://kit.fontawesome.com/28e7f0bb26.js"></script>
+
 <!-- InstanceBeginEditable name="scripts" -->
 <!--js/vendor.min.js, js/theme.min.js deben estra en index-->
 <!-- InstanceEndEditable -->
 </body>
-<!-- InstanceEnd -->
-</html>
+<!-- InstanceEnd --></html>

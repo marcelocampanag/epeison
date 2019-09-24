@@ -1,0 +1,112 @@
+// Epeison Styles
+
+// Buttons + Forms
+.principal-title {
+  font-family: $font-family-principal-title;
+  font-size: 60px;
+}
+
+/*.btn-primary:hover{
+  background-color: $strong-red;
+  border-color: $strong-red; }*/
+ 
+
+.text-primary {
+	color: $strong-red !important;
+}
+a.text-primary:hover {
+	color: $red2 !important;
+	text-decoration: none;
+}
+.nav-link.active{
+	color: $red !important;
+	font-weight: bold;	
+}
+// Header
+
+.logo {
+		width: 110px;	
+} 
+
+//Backgrounds
+.backImage-index {
+  background-image: url("../images/fondo_inicio.jpg");
+  background-size: cover;
+}
+.headerBackImage {
+  background-image: url("../images/horse_los_epeison_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+//opacity
+.black-opacity-05 {
+  background-color: rgba(0, 0, 0, .5);
+}
+.opacity-091 {
+  opacity: 0.91;
+}
+.gallery-item:hover{
+	opacity: 0.9;
+}
+.headerImageOrigen{
+  background-image: url("../images/horse_origen_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+.headerImageProteccion {
+  background-image: url("../images/horse_proteccion_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+.headerImageAdaptacion {
+  background-image: url("../images/horse_adaptacion_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+.headerImageSustentabilidad {
+  background-image: url("../images/horse_sustentabilidad_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;	
+}
+
+.headerImageBlog {
+  background-image: url("../images/horse_index_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;	
+}
+.headerImageBlog {
+  background-image: url("../images/horse_index_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;	
+}
+.headerImageDonacion {
+ background-image: url("../images/donacion.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;	
+} 
+.headerImageContacto {
+ background-image: url("../images/fondo_inicio.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;	
+}

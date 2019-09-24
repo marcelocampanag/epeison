@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><!-- InstanceBegin template="/Templates/principal.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- InstanceParam name="OptionalSecondaryMenu" type="boolean" value="false" -->
+<!-- InstanceParam name="TitleH1AndP" type="boolean" value="true" -->
+<!-- InstanceParam name="classInicioActive" type="text" value="nav-item mx-2" -->
+<!-- InstanceParam name="classLosEpeisonActive" type="text" value="nav-item mx-2" -->
+<!-- InstanceParam name="classBlogActive" type="text" value="nav-item mx-2 active" -->	
+<!-- InstanceParam name="classQuienes" type="text" value="nav-link text-right mb-n2 active" -->
+<!-- InstanceParam name="classHistoria" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classProteccion" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classAdaptacion" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classSustentabilidad" type="text" value="nav-link text-right mb-n2" -->
+<!-- InstanceParam name="classGaleria" type="text" value="nav-link text-right mb-n2" -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
 <title>Blog</title>
+<!-- InstanceEndEditable -->
+
 <!-- Bootstrap -->
-<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 <!-- Fuentes-->
 <link rel="stylesheet" href="https://use.typekit.net/bpv1kso.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,500,700,700i,900|Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700,900|Roboto+Slab|Anonymous+Pro" rel="stylesheet">
 <!-- CSS personalizados del sitio -->
-<link href="css/theme_epeison.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!--contenido para el head-->
+<!-- InstanceEndEditable -->
 </head>
 <body>
 <header>
@@ -30,55 +47,49 @@
           <li class="nav-item mx-2">
             <a class="nav-link" href="los_epeison.html">Los Epeison</a>
           </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link" href="galeria.html">Galería</a>
-          </li>
           <li class="nav-item mx-2 active">
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
         </ul>
-        <a class="btn btn-danger rounded-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
+        <a class="btn btn-primary mt-2 mt-md-0 ml-3" href="donacion.html" role="button">Haz una donación</a>
       </div>
     </nav>
   </div>
   <!--hero-->
+  <div class="container-fluid px-0"><!-- InstanceBeginEditable name="BackgroundImageClass" -->
+    <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="H1AndPTitle" -->
   <div class="container-fluid px-0">
-    <div class="jumbotron rounded-0 headerImageBlog header-opacity0dot7">
+    <div class="jumbotron rounded-0 headerImageBlog black-opacity-05">
       <div class=" container">
         <p class="col-12 col-md-8  text-white">Blog</p>
 		<h3 class="col-12 col-md-6 col-lg-8 text-white mb-3 d-none d-lg-block display-4 ">Los escasos caballos salvajes se niegan a desaparecer</h3>
         <h3 class="col-12 col-md-6 col-lg-8 text-white mb-3 d-lg-none">Los escasos caballos salvajes se niegan a desaparecer</h3>
         <p class="col-12 col-md-8  text-white" >Es fácil maravillarse ante la presencia de un caballo y conmueven las múltiples maneras en que ha interactuado con el ser humano cuando éste le ha respetado.</p>
-        <p class="col-12 col-md-8  font-weight-bold card-link">Continua leyendo...</p>
+        <p class="col-12 col-md-8  font-weight-bold text-primary">Continua leyendo...</p>
       </div>
     </div>
+ 
+    <!-- InstanceEndEditable -->
+    
   </div>
-  <!--Video modal-->
-  <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-videoTitle" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered " role="document">
-      <div class="modal-content">
-        <div class="modal-body bg-black">
-          <div class="embed-responsive embed-responsive-16by9 m-0 p-0" id="yt-player">
-            <iframe src="https://player.vimeo.com/video/354068277" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
-</header>
-<body>
-<main>
-  <!--Noticias destacadas-->
+  </header>
+<!-- InstanceBeginEditable name="Main" -->
+<main><!--Noticias destacadas-->
   <div class="container">
     <div class="card-group">
       <div class="card rounded-0 border-0">
         <div class="row no-gutters">
           <div class="col-12 col-lg-7">
             <div class="card-body">
-              <h5 class="card-title"><a class="secondary-link font-weight-bold" href="">Los escasos caballos salvajes se niegan a desaparecer</a></h5>
+              <h5 class="card-title">
+                <a class="text-primary font-weight-bold" href="">Los escasos caballos salvajes se niegan a desaparecer</a>
+              </h5>
               <p class="card-text">Es fácil maravillarse ante la presencia de un caballo y conmueven las múltiples maneras en que ha interactuado con el ser humano cuando éste le ha respetado.</p>
             </div>
-			  <div class="card-footer border-0 bg-transparent"><small class="text-muted"><a class="text-dark text-decoration-none font-weight-bold" href="">Continua leyendo...</a></small></div>
+            <div class="card-footer border-0 bg-transparent"><small class="text-muted">
+              <a class="text-dark text-decoration-none font-weight-bold" href="">Continua leyendo...</a>
+              </small></div>
           </div>
           <div class="col-md-4">
             <img src="images/blog1.jpg" class="card-img rounded-0 d-none d-lg-block" alt="...">
@@ -89,11 +100,14 @@
         <div class="row no-gutters">
           <div class="col-12 col-lg-7">
             <div class="card-body">
-              <h5 class="card-title"><a class="secondary-link font-weight-bold" href="">Los caballos, víctimas del olvido, crueldad e ingratitud</a></h5>
+              <h5 class="card-title">
+                <a class="text-primary font-weight-bold" href="">Los caballos, víctimas del olvido, crueldad e ingratitud</a>
+              </h5>
               <p class="card-text">La búsqueda de niveles más elevados  de protección animal no solo se basa en la necesidad de resguardar el ecosistema, sino también en la convicción que los animales...</p>
             </div>
-			 <div class="card-footer border-0 bg-transparent"><small class="text-muted"><a class="text-dark text-decoration-none font-weight-bold" href="">Continua leyendo...</a></small></div>
-
+            <div class="card-footer border-0 bg-transparent"><small class="text-muted">
+              <a class="text-dark text-decoration-none font-weight-bold" href="">Continua leyendo...</a>
+              </small></div>
           </div>
           <div class="col-md-4">
             <img src="images/blog2.jpg" class="card-img rounded-0 d-none d-lg-block" alt="...">
@@ -106,7 +120,7 @@
     <div class="row">
       <div class="col-12 col-lg-7">
         <div>
-          <h3 class="mb-3 mt-lg-4">Los salvajes caballos de Inglaterra y el proyecto de reforestación checo.</h3>
+          <h3 class="text-primary mb-3 mt-lg-4 font-weight-bold">Los salvajes caballos de Inglaterra y el proyecto de reforestación checo.</h3>
         </div>
         <div class="mb-3">
           <p>En diversas ocasiones se ha justificado la cruel matanza de caballos salvajes argumentando que ellos pueden representar una amenaza para el ecosistema. Especies animales y vegetales son utilizadas como pretexto de maltratos que lejos están de proteger el medio ambiente. Sin embargo, el manejo sustentable de estos equinos es una alternativa respetuosa de los derechos de los animales que descarta radicalmente el uso de la fuerza en su contra. Un extraordinario ejemplo de ello y que a su vez demuestra el inmenso aporte que pueden significar las especies salvajes para la conservación de ecosistemas, es el proyecto de reforestación de parques nacionales que actualmente tiene lugar en la República Checa.</p>
@@ -115,39 +129,40 @@
         </div>
       </div>
       <div class="col-lg-4 d-none d-lg-block">
-	
-		  <div class="container ml-5">
-			  <div>
-			  <h3 class="mb-n2 mt-lg-4">Suscribete al blog</h3>
-			  <small class="text-muted">para recibir las nuevas publicaciones</small></div>
-    <form class="mt-3">
-      <div class="form-column">
-        <div class="form-group">
-          <input type="email" class="form-control mx-auto ml-5" id="emailSuscripcion" aria-describedby="emailHelp" placeholder="Email">
+        <div class="container ml-5">
+          <div>
+            <h3 class="mb-n2 mt-lg-4">Suscribete al blog</h3>
+            <small class="text-muted">para recibir las nuevas publicaciones</small></div>
+          <form class="mt-3">
+            <div class="form-column">
+              <div class="form-group">
+                <input type="email" class="form-control mx-auto ml-5" id="emailSuscripcion" aria-describedby="emailHelp" placeholder="Email">
+              </div>
+              <button type="submit" class="btn btn-danger d-block mx-auto">Suscribirme</button>
+            </div>
+          </form>
         </div>
-        <button type="submit" class="btn btn-danger d-block mx-auto">Suscribirme</button>
       </div>
-    </form>
-  </div>
-		</div>
     </div>
   </div>
 </main>
+<!-- InstanceEndEditable -->
 <footer class="bg-dark py-5">
   <a name="ayudar-form"></a>
   <!--text footer-->
   <div class="container text-center text-white pt-md-5">
-    <h3>Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
-    <p class="mx-auto">Envíanos tu datos de contacto para contarte acerca de cómo ayudar, eventos y noticias.</p>
+    <h3 class="d-none d-md-block offset-1 col-10 text-center">Tú también puedes tomar parte en la protección y preservación de estos caballos salvajes del sur de Chile.</h3>
+    <h3 class="col-12 d-md-none text-center">Tú también puedes tomar parte en la protección de Los Epeison.</h3>
+    <p class="mx-auto">Déjanos tu email para contarte cómo ayudar</p>
   </div>
   <!--formulario de suscripcion-->
-  <div class="container">
+  <div class="container ">
     <form>
-      <div class="form-row justify-content-center ">
-        <div class="form-group col-12 col-md-5">
+      <div class="form-row justify-content-center">
+        <div class="form-group col-12 col-md-5 m-b-2 mb-md-0">
           <input type="email" class="form-control" id="emailSuscripcion1" aria-describedby="emailHelp" placeholder="Email">
         </div>
-        <button type="submit" class="btn btn-danger col-9 col-md-2 ml-n3 ">Quiero saber más</button>
+        <button type="submit" class="btn btn-primary col-9 col-md-3 ml-n2">Quiero saber más</button>
       </div>
     </form>
   </div>
@@ -162,14 +177,18 @@
     </nav>
   </div>
 </footer>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-3.3.1.min.js"></script>
-<!-- Iconos -->
-<script src="https://kit.fontawesome.com/28e7f0bb26.js"></script>
-<script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.3.1.js"></script>
+<!-- Iconos -->
+<script src="https://kit.fontawesome.com/28e7f0bb26.js"></script>
+
+<!-- InstanceBeginEditable name="scripts" -->
+<!--js/vendor.min.js, js/theme.min.js deben estra en index-->
+<!-- InstanceEndEditable -->
 </body>
-</html>
+<!-- InstanceEnd --></html>
