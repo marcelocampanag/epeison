@@ -182,6 +182,13 @@ body {
   background-blend-mode: multiply;
   background-repeat: no-repeat;	
 }
+.heBackImage-blog-post{
+  background-image: url("../images/horse_index_xl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;	
+}
 .title-text{
 	font-family: 'Roboto Slab', serif;
 }
